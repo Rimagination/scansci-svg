@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320">
+<title>牛舍与饲喂区</title><desc>通用奶牛与开放式牛舍、地面饲槽示意。牛体、四肢、头颈、尾、牛舍和饲槽分别可编辑，吻部接近槽内饲料。</desc>
+<g id="agri_livestock" stroke-linecap="round" stroke-linejoin="round">
+ <g id="farm-ground"><path d="M30 241 C74 222 132 225 168 224 C232 221 300 231 350 239 C373 243 382 255 363 261 C316 276 235 273 178 272 C112 274 53 266 32 256 Q21 249 30 241 Z" fill="#c9c4a4"/><path d="M112 245 C161 237 235 238 282 249 C308 255 286 260 243 260 L142 257 Z" fill="#b0ad90"/></g>
+ <g id="barn" stroke="#677366" stroke-width="1.2">
+  <path d="M45 129 L111 91 L176 127 V236 H45 Z" fill="#d4c3a3"/>
+  <path d="M176 127 L256 109 V214 L176 236 Z" fill="#a99474"/>
+  <path d="M40 129 L110 86 L194 68 L262 106 L176 133 L111 99 L46 138 Z" fill="#798e84"/>
+  <path d="M111 99 L176 133 L262 106 L194 75 Z" fill="#536e63" stroke="none"/>
+  <path d="M123 101 L183 127 M143 95 L202 121 M164 89 L222 115 M185 83 L241 109" fill="none" stroke="#789183"/>
+  <path d="M60 155 H157 V234 H60 Z" fill="#56665b"/>
+  <path d="M71 162 H146 V218 H71 Z" fill="#677667" stroke="none"/>
+  <path d="M52 143 H166 V152 H52 Z M105 153 H112 V234 H105 Z" fill="#b7a07b"/>
+  <path d="M185 145 L245 128 V191 L185 210 Z" fill="#56675a"/>
+  <path d="M205 139 V204 M226 133 V198" fill="none" stroke="#c3ad86" stroke-width="5"/>
+  <path d="M54 233 H169" stroke="#aa9270" stroke-width="4"/>
+ </g>
+ <g id="cow" stroke="#565c50" stroke-width="1.1">
+  <g id="far-legs" fill="#c6c7b7"><path d="M192 192 C192 212 190 222 190 231 L190 246 L199 246 C196 237 198 222 201 213 L204 197 Z"/><path d="M250 193 L254 219 L253 243 L262 244 L262 220 L265 201 Z"/><path d="M189 244 L199 244 L201 249 L189 249 Z M252 242 L262 242 L264 247 L251 247 Z" fill="#595c51"/></g>
+  <g id="tail"><path d="M171 166 C158 173 160 194 154 210 L152 224" fill="none" stroke="#b9b9a8" stroke-width="3"/><path d="M152 216 Q145 224 147 230 Q153 233 157 227 Z" fill="#525950" stroke="none"/></g>
+  <g id="body"><path d="M166 168 C168 155 184 150 203 152 C224 154 244 150 260 157 C269 161 275 170 275 182 C275 196 266 206 249 209 C229 214 209 215 190 207 C177 204 164 190 166 168 Z" fill="#eeeee1"/><path d="M171 161 C180 154 196 153 205 156 C202 167 191 172 191 182 C187 190 175 191 169 181 C167 174 167 168 171 161 Z M225 154 C240 152 255 156 261 161 C255 169 260 176 251 184 C244 189 230 187 227 177 C224 169 221 163 225 154 Z" fill="#59635b" stroke="none"/><path d="M193 202 C211 209 234 211 256 204 C244 216 211 219 193 209 Z" fill="#d6d6c3" stroke="none"/></g>
+  <g id="udder"><path d="M207 208 C213 207 230 209 233 213 C232 220 214 223 209 218 Z" fill="#d6b5a1"/><path d="M215 218 L215 223 M225 218 L224 223" stroke="#bc9583" stroke-width="2.5"/></g>
+  <g id="near-hind-leg"><path d="M178 186 C187 184 195 189 195 198 C194 211 187 217 187 224 L183 241 L183 248 L173 248 C174 244 177 239 177 233 L177 222 L181 210 C178 201 175 192 178 186 Z" fill="#e7e8d7"/><path d="M174 244 H184 L184 251 L173 251 Z" fill="#555b50"/><path d="M180 191 Q187 195 187 203" fill="none" stroke="#c8cdba" stroke-width="2"/></g>
+  <g id="near-foreleg"><path d="M251 185 Q264 182 269 194 C270 208 267 220 268 230 L272 248 L262 249 L259 230 L256 216 L253 207 Z" fill="#ececdd"/><path d="M261 245 L271 245 L274 251 L261 251 Z" fill="#555b50"/><path d="M257 204 L262 221" fill="none" stroke="#c5c9b7" stroke-width="2"/></g>
+  <g id="head-neck"><path d="M258 159 C275 156 283 166 289 179 L307 191 C316 196 324 205 327 215 L336 223 C338 227 335 234 329 235 C319 234 316 230 312 223 L295 211 C282 206 271 199 266 188 L256 179 Z" fill="#eeeede"/><path d="M271 162 C282 166 282 177 290 184 L305 195 C299 202 289 197 282 191 C273 185 272 174 266 173 Z" fill="#59645a" stroke="none"/><path d="M308 192 Q317 187 323 193 Q322 200 315 201" fill="#d1d3bf"/><path d="M298 190 Q290 179 298 180 Q309 181 312 193" fill="#59645a"/><path d="M322 218 C327 217 330 219 336 223 C339 227 335 234 329 235 L320 231 Q317 224 322 218 Z" fill="#c5b4a0"/><ellipse cx="311" cy="208" rx="2" ry="2.5" fill="#3e493f" stroke="none"/><ellipse cx="330" cy="226" rx="1.8" ry="1.2" fill="#6b6657" stroke="none"/><path d="M320 230 Q326 233 332 231" fill="none" stroke="#9a8d79"/></g>
+ </g>
+ <g id="trough" stroke="#827d68" stroke-width="1.2"><path d="M292 240 L350 232 L378 239 L319 249 Z" fill="#b7bda8"/><path d="M292 240 L319 249 V266 L295 257 Z" fill="#a1aa98"/><path d="M319 249 L378 239 L374 256 L319 266 Z" fill="#859783"/></g>
+ <g id="feed" fill="#bfba80"><path d="M300 239 C307 233 316 233 322 232 C331 229 342 231 350 234 L366 238 L320 244 Z"/><path d="M307 238 L316 237 M326 234 L330 237 M340 234 L348 236 M335 240 L343 238" fill="none" stroke="#8f9564" stroke-width="1.3"/></g>
+ <g id="ground-cover" fill="none" stroke="#88986c" stroke-width="1.4"><path d="M47 253 Q42 246 40 246 M47 253 Q47 246 51 243 M58 257 L61 250 M280 261 Q277 255 276 255"/></g>
+</g></svg>

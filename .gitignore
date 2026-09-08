@@ -1,0 +1,10 @@
+.local/
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store

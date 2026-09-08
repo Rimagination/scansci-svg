@@ -1,0 +1,142 @@
+[
+  {
+    "id": "starter-kelp",
+    "title": "海带状藻体",
+    "category": "ecology",
+    "tags": [
+      "海洋",
+      "大型藻类",
+      "藻体"
+    ],
+    "description": "大型褐藻概括示意。柔曲主轴连续接入交替叶状片，基部有分枝固着器。以本地海带状藻体和 flora 巨藻样本关系为依据，未指定种属和气囊特征。 ScanSci AI 辅助原创示意素材。CC BY 4.0，署名 ScanSci。https://creativecommons.org/licenses/by/4.0/\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/kelp.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  },
+  {
+    "id": "starter-root-system",
+    "title": "植物根系",
+    "category": "plants",
+    "tags": [
+      "植物",
+      "根系",
+      "分支"
+    ],
+    "description": "通用直根系幼株。连续根颈连接渐细主根、两侧不对称的侧根与细小分枝；地上幼叶单独分组。无物种和比例尺指向，细根作概括表达。 ScanSci AI 辅助原创示意素材。CC BY 4.0，署名 ScanSci。https://creativecommons.org/licenses/by/4.0/\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/root-system.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  },
+  {
+    "id": "starter-snail",
+    "title": "蜗牛",
+    "category": "animals",
+    "tags": [
+      "动物",
+      "软体动物",
+      "螺壳"
+    ],
+    "description": "通用陆生蜗牛侧面示意，螺旋壳、壳口、腹足、头与两对触角可分别编辑。长触角末端具小眼点，无拟人表情。ScanSci AI 辅助原创示意素材。CC BY 4.0，署名 ScanSci。\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/snail.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  },
+  {
+    "id": "starter-mountain",
+    "title": "山体",
+    "category": "earth",
+    "tags": [
+      "地形",
+      "山地",
+      "mountain"
+    ],
+    "description": "非对称山脊、沟谷与不规则残雪共同表达山体。通用山地形态示意。ScanSci，CC BY 4.0。\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/mountain.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  },
+  {
+    "id": "starter-mangrove",
+    "title": "红树林植株",
+    "category": "plants",
+    "tags": [
+      "湿地",
+      "树木",
+      "支撑根"
+    ],
+    "description": "支柱根型红树通用示意。叶簇、不等粗的拱形根和分枝树干分组；根端接触基质，无具体物种指向。 ScanSci AI 辅助原创示意素材。CC BY 4.0，署名 ScanSci。https://creativecommons.org/licenses/by/4.0/\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/mangrove.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  },
+  {
+    "id": "starter-volcano",
+    "title": "火山剖面",
+    "category": "earth",
+    "tags": [
+      "火山",
+      "地质",
+      "volcano"
+    ],
+    "description": "火山锥、火山口、岩浆房与连通通道的概念剖面。地层为通用示意。ScanSci，CC BY 4.0。\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/volcano.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  },
+  {
+    "id": "starter-glacier",
+    "title": "冰川",
+    "category": "earth",
+    "tags": [
+      "冰川",
+      "冰冻圈",
+      "glacier"
+    ],
+    "description": "冰川积累区、谷底冰舌、裂隙与终碛的通用示意，不代表流速或冰厚数据。ScanSci，CC BY 4.0。\nScanSci · AI 辅助原创绘制，部件分组可编辑。",
+    "author": "ScanSci",
+    "license": "CC-BY-4.0",
+    "status": "original",
+    "source_url": "",
+    "created_at": "2026-09-07",
+    "preview_url": "./assets/starter/glacier.svg",
+    "demo": true,
+    "updated_at": "2026-09-08",
+    "visual_revision": "natural-form-20260908"
+  }
+]

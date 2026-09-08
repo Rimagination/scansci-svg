@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1008" viewBox="80 60 550 630">
+  <defs>
+    <linearGradient id="glass-tint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d3edf0"/>
+      <stop offset="1" stop-color="#8cb8c4"/>
+    </linearGradient>
+  </defs>
+  <g id="incubator" stroke="#3e5563" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <g id="feet" fill="#647783">
+      <path id="foot-front-left" d="M166 573 196 576 196 609 166 606Z"/>
+      <path id="foot-front-right" d="M404 597 433 600 433 633 404 630Z"/>
+      <path id="foot-rear-right" d="M528 547 549 534 549 566 528 579Z"/>
+    </g>
+    <g id="cabinet">
+      <path id="cabinet-right" fill="#b4c4ce" d="M445 205 560 135 560 540 445 610Z"/>
+      <path id="cabinet-front" fill="#e5ebee" d="M145 175 445 205 445 610 145 580Z"/>
+      <path id="cabinet-top" fill="#f4f7f8" d="M145 175 260 105 560 135 445 205Z"/>
+      <path id="upper-panel-seam" fill="none" stroke="#94a7b2" stroke-width="2" d="M145 230 445 260"/>
+      <path id="bottom-panel-seam" fill="none" stroke="#94a7b2" stroke-width="2" d="M145 558 445 588"/>
+      <g id="side-vent" fill="none" stroke="#8198a6" stroke-width="4">
+        <path d="M481 476 529 447"/>
+        <path d="M481 489 529 460"/>
+        <path d="M481 502 529 473"/>
+      </g>
+    </g>
+    <g id="indicator-light">
+      <ellipse id="indicator-bezel" cx="191" cy="205" rx="9" ry="9.5" fill="#70828b" stroke-width="2"/>
+      <ellipse id="indicator-lens" cx="191" cy="205" rx="5.5" ry="6" fill="#72c9a0" stroke="none"/>
+    </g>
+    <g id="front-door">
+      <path id="door-panel" fill="#f4f7f8" stroke-width="2.5" d="M168 247 426 272 426 565 168 540Z"/>
+      <g id="observation-window">
+        <path id="window-frame" fill="#718894" d="M186 270 377 289 377 493 186 474Z"/>
+        <path id="window-glass" fill="url(#glass-tint)" stroke="#455e6c" stroke-width="2" d="M198 283 365 300 365 480 198 463Z"/>
+        <g id="window-interior" fill="none" stroke="#779eab" stroke-width="2">
+          <path id="upper-shelf" d="M211 365 352 379 358 375"/>
+          <path id="lower-shelf" d="M211 418 352 432 358 428"/>
+        </g>
+        <path id="window-reflection" fill="none" stroke="#f4ffff" stroke-width="5" stroke-opacity="0.85" d="M219 309 250 343"/>
+      </g>
+      <g id="door-handle">
+        <path id="handle-upper-mount" fill="#8296a1" stroke-width="2" d="M395 346 412 348 412 361 395 359Z"/>
+        <path id="handle-lower-mount" fill="#8296a1" stroke-width="2" d="M395 415 412 417 412 430 395 428Z"/>
+        <path id="handle-grip" fill="#d0dbe0" stroke-width="2.5" d="M401 343Q401 339 405 340L414 341Q418 341 418 346L418 429Q418 434 414 433L405 432Q401 432 401 427Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

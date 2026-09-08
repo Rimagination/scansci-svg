@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="170" viewBox="0 0 260 170">
+ <title>窗口错位教学示例</title>
+ <g id="building">
+  <path id="wall" d="M30 40H230V155H30Z" fill="#e2e3db"/>
+  <path id="roof" d="M20 40L130 12 240 40Z" fill="#657d78"/>
+  <g id="window" transform="translate(110 58)">
+   <rect id="frame" width="60" height="50" rx="1" fill="#435e59"/>
+   <rect id="glass" x="5" y="5" width="50" height="40" fill="#91c5d5"/>
+  </g>
+  <path id="door" d="M190 100H215V155H190Z" fill="#9b8a6c"/>
+ </g>
+</svg>
