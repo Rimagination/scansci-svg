@@ -1,6 +1,6 @@
 ---
 name: scansci-svg
-description: Use when creating or revising publication-oriented scientific SVG illustrations, diagrams, or assets from text, photographs, or generated images, including reference-label reconstruction, targeted edits to semantic parts, and converting scientific figures or SVG into editable PPT/PPTX. Applies where object identity, spatial relationships, connections, and editability matter. Excludes pixel-exact tracing, stock-asset retrieval, and data-chart generation.
+description: Use when creating or revising publication-oriented scientific SVG illustrations, diagrams, or assets from text, photographs, or generated images, including reference-label reconstruction, targeted edits to semantic parts, converting scientific figures or SVG into editable PPT/PPTX, and submitting a finished SVG to ScanSci when the user asks to upload or share it. Applies where object identity, spatial relationships, connections, and editability matter. Excludes pixel-exact tracing, stock-asset retrieval, and data-chart generation.
 ---
 
 # scansci-svg · 科研发表级矢量绘制
@@ -48,6 +48,7 @@ description: Use when creating or revising publication-oriented scientific SVG i
 
 ## 交付约定
 
+- 用户说“帮我上传 ScanSci”“把这张图分享到素材库”时，按 [上传到 ScanSci](references/scansci-upload.md) 选择本轮明确的成稿、补齐投稿信息并提交。复用已确认的署名、许可和有效授权；首次需要登录时提供官方授权入口。以服务端返回的素材 ID 和状态说明结果。上传流程只在用户提出提交请求时启用。
 - 用户要求图片/SVG 转为可编辑 PPT/PPTX 时，按 [可编辑 PPTX 交付](references/pptx-delivery.md) 复用现有原生形状导出工具。单图默认一页，保持原有内容和宽高比；验证实际 PPT 中的文字与部件编辑，交付 PPTX 和实际渲染预览。
 - 默认透明背景 SVG，PNG 仅作预览；需要文字时使用可改的 `<text>`，保留可编辑的上下标与特殊字符。参考图含字时，先核对文字内容和对应对象，按需记录位置、方向及层叠；疑字不猜，字体无法识别时用合适替代并说明差异。复杂文字重建读 [文字与部件编辑](references/editable-workflow.md)。
 - 整个对象有具名组；内部按用户会移动的部件分组。窗的玻璃、边框、高光同组；叶片及其叶脉、叶柄按联动需求同组。颜色与明暗面跟随所属部件，完整轮廓可以含多条路径。
