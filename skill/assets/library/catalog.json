@@ -760,15 +760,17 @@
       "软骨",
       "韧带"
     ],
-    "description": "股骨、胫骨、腓骨、软骨、韧带和髌骨轮廓独立，显示关节连接。",
+    "description": "略屈曲膝关节的前面观，去除髌骨、髌韧带和前方关节囊以显示内部结构。股骨髁与胫骨平台之间保留关节软骨和半月板；中央示前后交叉韧带，内侧副韧带连于胫骨，外侧副韧带连于腓骨头。画面右侧为外侧。通用解剖示意，骨干截短，非病理或定量影像。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/9-6-anatomy-of-selected-synovial-joints",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/anatomy_musculoskeletal.svg",
-    "demo": true
+    "demo": true,
+    "updated_at": "2026-09-09",
+    "visual_revision": "anatomy-natural-20260909"
   },
   {
     "id": "expanded-anatomy_neural_sensory",
@@ -783,15 +785,17 @@
       "轴突",
       "髓鞘"
     ],
-    "description": "树突、胞体细胞核、轴突、各髓鞘节与轴突末端分组。",
+    "description": "多极有髓神经元概括示意；不规则胞体与逐渐变细的树突、单一轴突、四段髓鞘及其间郎飞结、分枝末梢分组。轴突长度与髓鞘段数为版面简化。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-2-nervous-tissue",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/anatomy_neural_sensory.svg",
-    "demo": true
+    "demo": true,
+    "updated_at": "2026-09-09",
+    "visual_revision": "anatomy-natural-20260909"
   },
   {
     "id": "expanded-anatomy_cardiovascular_lymph",
@@ -806,15 +810,17 @@
       "瓣膜",
       "大血管"
     ],
-    "description": "四个心腔、房室瓣、心室中隔与大血管分组；颜色区分示意血路。",
+    "description": "成人心脏前面观切开示意。四心腔与房室瓣、连续心肌和室间隔、大血管分组。右心位于图左；左室壁较厚并构成心尖。淡蓝与淡红仅区分血路，肺静脉及后方血管按可见投影简化。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/anatomy_cardiovascular_lymph.svg",
-    "demo": true
+    "demo": true,
+    "updated_at": "2026-09-09",
+    "visual_revision": "anatomy-natural-20260909"
   },
   {
     "id": "expanded-anatomy_respiratory",
@@ -829,15 +835,17 @@
       "支气管",
       "肺叶"
     ],
-    "description": "气管、左右肺、肺叶分界和连续支气管树分别成组；采用前面观。",
+    "description": "成人肺前面观示意。图左为较宽、稍短的右肺，具上中下三叶；图右为左肺，具两叶与心切迹。支气管树以逐级渐细的连续曲线示意，细支气管数量作概括。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/anatomy_respiratory.svg",
-    "demo": true
+    "demo": true,
+    "updated_at": "2026-09-09",
+    "visual_revision": "anatomy-natural-20260909"
   },
   {
     "id": "expanded-anatomy_digestive",
@@ -852,15 +860,17 @@
       "肝",
       "胰"
     ],
-    "description": "食管、胃、肝胆、胰、十二指肠、小肠和结肠分别成组，示意管腔走向。",
+    "description": "前面观的消化器官组合；肝胃、胆囊、胰、十二指肠、盘曲小肠和带结肠袋的大肠分别分组。胃与横结肠适度移开以显露胰十二指肠关系，肠袢为概括排列；食管至直肠及回盲部保持连接。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/anatomy_digestive.svg",
-    "demo": true
+    "demo": true,
+    "updated_at": "2026-09-09",
+    "visual_revision": "anatomy-natural-20260909"
   },
   {
     "id": "expanded-anatomy_urogenital",
@@ -875,15 +885,17 @@
       "肾盂",
       "输尿管"
     ],
-    "description": "肾皮质、髓质锥体、肾盏肾盂、肾血管和输尿管分别编辑。",
+    "description": "肾脏冠状纵切的通用解剖示意。外侧皮质在髓质锥体之间形成肾柱；髓锥宽基底朝外，乳头朝向肾窦并进入肾盏，肾盏汇入肾盂后连续收束为输尿管。肾门血管截短并错开显示，不表达前后次序或完整分支，锥体数量与尺寸不作定量解释。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-3-gross-anatomy-of-the-kidney",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/anatomy_urogenital.svg",
-    "demo": true
+    "demo": true,
+    "updated_at": "2026-09-09",
+    "visual_revision": "anatomy-natural-20260909"
   },
   {
     "id": "expanded-anatomy_endocrine",

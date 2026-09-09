@@ -1,1 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320"><title id="title">四腔心脏示意</title><desc id="desc">四个心腔、房室瓣、心室中隔与大血管分组；颜色区分示意血路。</desc><g id="anatomy_cardiovascular_lymph" stroke-linecap="round" stroke-linejoin="round"><g id="great-vessels-496"><path d="M178 138L165 80L165 39" fill="none" stroke="#2b5662" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" /><path d="M178 138L165 80L165 39" fill="none" stroke="#86b7d3" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" /><path d="M202 135Q199 64 225 57Q260 47 259 86L262 115" fill="none" stroke="#2b5662" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" /><path d="M202 135Q199 64 225 57Q260 47 259 86L262 115" fill="none" stroke="#d98582" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" /><path d="M219 130L202 99L279 91" fill="none" stroke="#2b5662" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" /><path d="M219 130L202 99L279 91" fill="none" stroke="#86b7d3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" /><path d="M143 167L144 256" fill="none" stroke="#2b5662" stroke-width="23" stroke-linecap="round" stroke-linejoin="round" /><path d="M143 167L144 256" fill="none" stroke="#86b7d3" stroke-width="19" stroke-linecap="round" stroke-linejoin="round" /></g><g id="heart-wall-497"><path d="M198 115C160 85 117 125 128 178C134 228 184 270 222 290C255 260 293 204 279 156C274 127 249 111 230 124Z" fill="#d98582" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="right-atrium-498"><path d="M155 121Q186 112 192 157L181 187L145 174Q130 139 155 121Z" fill="#c3dce9" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="right-ventricle-499"><path d="M147 191L184 190Q197 237 215 267Q161 237 147 191Z" fill="#86b7d3" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="left-atrium-500"><path d="M224 136Q252 119 268 153L258 182L216 179Z" fill="#edb4a9" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="left-ventricle-501"><path d="M215 195L257 195Q257 237 225 269Q209 237 215 195Z" fill="#eeb8a4" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="septum-502"><path d="M200 171Q198 224 223 278" fill="none" stroke="#ae686d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /></g><g id="valves-503"><path d="M148 184L165 194L181 184M215 187L235 197L256 187" fill="none" stroke="#f3e5d6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" /></g><g id="pulmonary-veins-504"><path d="M264 146L302 136" fill="none" stroke="#2b5662" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" /><path d="M264 146L302 136" fill="none" stroke="#d98582" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /><path d="M264 163L305 158" fill="none" stroke="#2b5662" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" /><path d="M264 163L305 158" fill="none" stroke="#d98582" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320">
+  <title id="title">四腔心脏示意</title>
+  <desc id="desc">成人心脏前面观切开示意。四心腔与房室瓣、连续心肌和室间隔、大血管分组。右心位于图左；左室壁较厚并构成心尖。淡蓝与淡红仅区分血路，肺静脉及后方血管按可见投影简化。</desc>
+  <defs>
+    <linearGradient id="myocardium" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dea496"/><stop offset=".5" stop-color="#cb8b81"/><stop offset="1" stop-color="#a75d63"/></linearGradient>
+    <linearGradient id="venous-wall" x1="0" x2="1"><stop stop-color="#739ba8"/><stop offset=".38" stop-color="#adc6ca"/><stop offset="1" stop-color="#628994"/></linearGradient>
+    <linearGradient id="arterial-wall" x1="0" x2="1"><stop stop-color="#b3666c"/><stop offset=".38" stop-color="#dd9d91"/><stop offset="1" stop-color="#a35762"/></linearGradient>
+    <radialGradient id="right-cavity" cx="50%" cy="37%" r="76%"><stop stop-color="#bdd3d0"/><stop offset="1" stop-color="#789eaa"/></radialGradient>
+    <radialGradient id="left-cavity" cx="48%" cy="35%" r="72%"><stop stop-color="#e6b5a3"/><stop offset="1" stop-color="#bd7a79"/></radialGradient>
+  </defs>
+  <g id="anatomy_cardiovascular_lymph" stroke-linecap="round" stroke-linejoin="round">
+    <g id="great-vessels-496">
+      <g id="superior-vena-cava">
+        <path d="M117 46 C120 67 119 89 119 109 C118 122 122 131 133 139 L154 132 C142 121 141 108 143 94 C145 74 144 58 142 44 Z" fill="url(#venous-wall)" stroke="#6d8d98" stroke-width=".9"/>
+        <path d="M125 49 C128 70 125 94 127 111" fill="none" stroke="#c9dad6" stroke-width="2.2"/>
+        <path d="M117 46 C121 40 137 39 142 44 C145 49 123 54 117 46 Z" fill="#7597a2" stroke="#aac2c6" stroke-width="1.2"/>
+      </g>
+      <g id="inferior-vena-cava">
+        <path d="M108 174 C112 190 108 206 105 224 C112 229 122 230 130 226 C130 209 139 193 139 178 Z" fill="url(#venous-wall)" stroke="#6d8d98" stroke-width=".9"/>
+        <path d="M115 188 C118 201 113 214 113 224" fill="none" stroke="#c5d5d1" stroke-width="1.8"/>
+        <path d="M105 224 C109 220 126 222 130 226 C127 232 109 231 105 224 Z" fill="#678b98" stroke="#acc5c7" stroke-width="1"/>
+      </g>
+      <g id="aorta">
+        <path d="M207 172 C206 151 200 132 196 114 C190 92 186 72 196 55 C205 38 226 35 243 43 C263 53 273 78 272 102 L269 128 L247 127 C248 111 250 94 244 78 C240 66 232 59 224 62 C211 67 216 85 219 102 C224 123 230 144 231 165 Z" fill="url(#arterial-wall)" stroke="#aa626a" stroke-width=".95"/>
+        <path d="M203 95 C199 81 197 64 209 53 C219 44 232 47 240 51" fill="none" stroke="#edb6a2" stroke-width="3.2"/>
+        <path d="M256 74 C262 93 260 109 258 122" fill="none" stroke="#e4a597" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="pulmonary-veins-504">
+      <g id="superior-pulmonary-vein"><path d="M258 124 C273 122 287 116 301 115 L304 130 C289 132 278 139 264 143 Z" fill="url(#arterial-wall)" stroke="#ad686c" stroke-width=".8"/><path d="M273 128 Q287 122 298 122" fill="none" stroke="#edb8a4" stroke-width="1.7"/><ellipse cx="302.5" cy="122.5" rx="3.2" ry="7.5" transform="rotate(-11 302.5 122.5)" fill="#985763" stroke="#d69a8d" stroke-width="1"/></g>
+      <g id="inferior-pulmonary-vein"><path d="M263 148 C280 147 291 144 305 145 L307 160 C291 157 280 165 266 165 Z" fill="url(#arterial-wall)" stroke="#ad686c" stroke-width=".8"/><path d="M276 154 Q290 150 302 151" fill="none" stroke="#edb8a4" stroke-width="1.5"/><ellipse cx="306" cy="152.5" rx="3.2" ry="7.5" transform="rotate(-7 306 152.5)" fill="#985763" stroke="#d69a8d" stroke-width="1"/></g>
+    </g>
+    <g id="heart-wall-497">
+      <path d="M189 112 C174 102 157 99 139 103 C117 107 104 124 101 145 C97 169 107 191 120 211 C139 240 163 257 189 273 C206 284 221 292 232 293 C245 286 256 274 267 256 C286 225 298 192 291 163 C286 139 274 122 257 114 C244 108 233 110 224 111 C212 104 199 107 189 112 Z" fill="url(#myocardium)" stroke="#a9676d" stroke-width="1.1"/>
+      <path d="M109 151 C105 176 119 203 137 224 C156 247 181 264 204 277 C219 286 229 290 232 289 C213 270 202 246 192 222 C184 202 179 174 170 158 C155 137 127 132 109 151 Z" fill="#dda597" opacity=".45"/>
+      <path d="M276 148 C292 186 276 228 258 255 C247 272 237 282 230 287" fill="none" stroke="#e3ad9c" stroke-width="2.1" opacity=".62"/>
+      <path d="M121 129 C113 142 111 157 115 168" fill="none" stroke="#f1c7b1" stroke-width="2.3"/>
+    </g>
+    <g id="right-ventricle-499">
+      <path d="M143 172 C132 177 122 178 118 186 C124 205 139 224 156 239 C172 253 187 264 206 273 C195 254 187 234 182 214 C178 200 174 188 180 173 C188 156 198 144 204 132 L190 126 C177 143 172 155 166 167 C159 169 151 169 143 172 Z" fill="url(#right-cavity)" stroke="#cfa995" stroke-width="2.6"/>
+      <path d="M125 189 C134 203 148 221 161 230 C156 217 150 207 152 199 C155 194 160 199 162 207 C165 225 174 240 187 253 C178 229 172 210 177 191" fill="none" stroke="#83a4ab" stroke-width="1.2"/>
+      <path d="M138 216 C150 228 165 241 178 250" fill="none" stroke="#cbd8ce" stroke-width="1.3"/>
+    </g>
+    <g id="right-atrium-498">
+      <path d="M125 110 C119 119 114 126 112 138 C109 156 114 166 123 175 C132 181 144 176 155 175 C166 175 173 177 177 169 C183 156 180 140 169 128 C159 117 148 116 140 109 C134 108 129 109 125 110 Z" fill="url(#right-cavity)" stroke="#cfa995" stroke-width="2.2"/>
+      <path d="M120 128 C121 145 117 150 123 163 M129 123 C128 136 131 143 130 151 M140 124 C139 133 143 141 143 148" fill="none" stroke="#82a4ac" stroke-width="1.15"/>
+      <path d="M125 107 C128 120 138 124 149 128 C144 118 141 111 141 104 Z" fill="url(#right-cavity)"/>
+      <path d="M112 161 C112 175 114 186 111 196 L128 199 C128 188 133 181 140 175 C126 178 119 172 112 161 Z" fill="url(#right-cavity)"/>
+    </g>
+    <g id="left-atrium-500">
+      <path d="M226 122 C236 115 249 116 260 123 C271 130 276 143 272 154 C269 163 260 167 250 166 C240 165 230 168 222 161 C215 155 215 134 226 122 Z" fill="url(#left-cavity)" stroke="#edbca8" stroke-width="2.2"/>
+      <path d="M259 129 C272 131 282 126 294 123 L296 130 C282 133 275 139 269 140 Z M269 150 C281 151 290 150 300 151 L301 157 C289 156 280 161 267 160 Z" fill="#c89185"/>
+      <path d="M231 125 C240 121 251 124 257 129" fill="none" stroke="#f3cbb6" stroke-width="1.5"/>
+    </g>
+    <g id="left-ventricle-501">
+      <path d="M231 158 C220 164 211 173 211 190 C210 210 218 235 227 254 C230 260 233 267 236 273 C248 262 258 241 266 219 C274 196 273 179 264 169 C257 161 244 157 231 158 Z" fill="url(#left-cavity)" stroke="#edbca8" stroke-width="3"/>
+      <path d="M216 175 C212 158 207 145 208 132 L220 128 C221 142 226 151 230 162 Z" fill="#d6988c"/>
+      <path d="M220 197 C223 211 221 224 231 243 C229 226 230 214 233 208 C236 201 241 208 241 217 C240 231 238 247 240 255 C253 235 260 211 263 194" fill="none" stroke="#ad6f70" stroke-width="1.3"/>
+      <path d="M223 186 C219 194 220 203 223 210 M264 182 C268 197 261 211 258 219" fill="none" stroke="#efc1aa" stroke-width="1.5"/>
+    </g>
+    <g id="septum-502">
+      <path d="M190 155 C189 172 186 189 190 208 C195 233 205 257 220 278 C224 284 228 289 232 291 C228 274 221 259 216 244 C207 219 202 196 210 178 C213 169 217 163 216 156 C207 151 199 151 190 155 Z" fill="url(#myocardium)"/>
+      <path d="M196 168 C194 191 200 219 208 239 C215 258 221 272 229 282" fill="none" stroke="#e9b49f" stroke-width="2"/>
+    </g>
+    <g id="aortic-outflow">
+      <path d="M209 112 C211 129 215 141 220 155 C224 166 224 175 225 184 C217 175 214 166 211 156 C207 142 204 128 204 117 Z" fill="#d49a8b"/>
+      <path d="M214 134 C217 152 223 164 222 177" fill="none" stroke="#edbca8" stroke-width="1.3"/>
+    </g>
+    <g id="pulmonary-trunk">
+      <path d="M178 171 C176 153 186 135 194 121 C200 109 201 100 195 96 C183 91 170 95 155 99 L151 83 C168 77 185 76 202 81 C207 83 210 87 214 89 C229 94 251 87 283 84 L285 101 C263 105 244 105 231 110 C218 116 217 128 210 140 C204 152 196 163 195 176 Z" fill="url(#venous-wall)"/>
+      <path d="M184 168 C185 149 199 133 205 120 C212 108 212 99 211 94" fill="none" stroke="#c9d9d4" stroke-width="2.7"/>
+      <path d="M221 102 C239 98 258 97 279 93" fill="none" stroke="#b8d0ce" stroke-width="2"/>
+      <path d="M163 88 C174 85 188 85 199 90" fill="none" stroke="#b8d0ce" stroke-width="1.8"/>
+      <ellipse cx="153" cy="91" rx="3.2" ry="8.2" transform="rotate(-12 153 91)" fill="#608794" stroke="#acc6c9" stroke-width="1.1"/>
+      <ellipse cx="284" cy="92.5" rx="3.2" ry="8.5" transform="rotate(-6 284 92.5)" fill="#608794" stroke="#acc6c9" stroke-width="1.1"/>
+      <path d="M179 159 C177 173 175 184 180 197 C184 183 192 171 199 159 Z" fill="#9ebcc2"/>
+    </g>
+    <g id="valves-503" stroke="#b7927f" stroke-width=".8">
+      <g id="tricuspid-valve"><path d="M126 176 C132 175 137 174 142 174 C142 180 147 186 150 192 C141 188 134 183 126 176 Z" fill="#f0e0c9"/><path d="M154 175 C165 175 172 173 177 170 C175 182 170 187 165 193 C166 182 161 179 154 175 Z" fill="#f3e4cc"/><path d="M141 182 C150 184 154 186 157 190 C155 195 152 199 150 202" fill="none" stroke="#e9d5bc" stroke-width="1"/><path d="M168 188 C169 198 166 204 163 211 M148 190 Q151 202 154 209" fill="none" stroke="#e9d5bc" stroke-width="1"/></g>
+      <g id="mitral-valve"><path d="M226 163 C232 160 237 160 242 161 C239 170 233 177 230 185 C227 179 225 171 226 163 Z" fill="#f1e0c7"/><path d="M250 163 C256 164 261 167 265 173 C257 177 251 180 248 187 C247 178 249 172 250 163 Z" fill="#f4e5cb"/><path d="M230 181 C231 192 232 200 235 210 M248 184 C244 194 242 199 241 210 M254 178 Q251 195 245 205" fill="none" stroke="#e9d5bc" stroke-width="1"/></g>
+    </g>
+  </g>
+</svg>

@@ -1,1 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320"><title id="title">膝关节正面示意</title><desc id="desc">股骨、胫骨、腓骨、软骨、韧带和髌骨轮廓独立，显示关节连接。</desc><g id="anatomy_musculoskeletal" stroke-linecap="round" stroke-linejoin="round"><g id="femur-483"><path d="M169 34L228 34L219 126Q255 142 240 180Q222 196 202 181Q178 199 157 183Q140 165 152 143L179 126Z" fill="#e7ddc5" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="tibia-484"><path d="M159 199Q201 186 244 199L226 235L224 292L173 292L175 233Z" fill="#e7ddc5" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="fibula-485"><path d="M265 198Q281 197 283 216L270 249L266 292L250 292L255 244Z" fill="#d5c9ad" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="cartilage-486"><path d="M158 176Q179 189 201 178Q221 192 241 176" fill="none" stroke="#86b7d3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" /><path d="M160 199Q200 211 241 199" fill="none" stroke="#86b7d3" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></g><g id="ligaments-487"><path d="M165 166L231 214M231 166L173 214" fill="none" stroke="#a99cc7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" /></g><g id="patella-outline-488"><path d="M184 150Q201 135 218 150L214 180L200 192L186 180Z" fill="none" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320">
+ <title>膝关节前面观</title>
+ <desc>略屈曲膝关节的前面观，去除髌骨、髌韧带和前方关节囊以显示内部结构。股骨髁与胫骨平台之间保留关节软骨和半月板；中央示前后交叉韧带，内侧副韧带连于胫骨，外侧副韧带连于腓骨头。画面右侧为外侧。通用解剖示意，骨干截短，非病理或定量影像。</desc>
+ <g id="anatomy_musculoskeletal" stroke-linecap="round" stroke-linejoin="round">
+  <g id="fibula">
+   <path d="M258 211 C262 205 269 202 276 206 C282 210 283 218 280 225 C275 234 270 239 269 250 C268 264 269 278 271 291 C266 294 261 294 257 291 C258 271 257 254 259 240 C260 232 254 225 254 219 C254 215 256 213 258 211 Z" fill="#d0c4ad"/>
+   <path d="M271 211 C276 218 272 226 266 231 C263 244 265 271 264 291 L271 291 C269 278 268 264 269 250 C270 239 275 234 280 225 C283 218 282 210 276 206 Z" fill="#b8ae98"/>
+   <path d="M258 213 C262 209 266 209 270 211" fill="none" stroke="#ece3cd" stroke-width="2"/>
+  </g>
+  <g id="tibia">
+   <path d="M139 203 C150 198 174 199 190 201 C197 198 199 192 203 192 C207 193 208 199 215 200 C230 198 248 199 259 204 C265 211 260 223 251 229 C235 239 229 252 229 269 L231 292 C214 298 185 298 169 292 C171 273 172 258 168 245 C165 234 156 230 147 224 C139 219 133 210 139 203 Z" fill="#e2d8c2"/>
+   <path d="M235 219 C238 228 231 239 224 248 C217 261 223 279 222 294 L231 292 L229 269 C229 252 235 239 251 229 C260 223 265 211 259 204 L248 211 Z" fill="#c5bda7"/>
+   <path d="M145 214 C150 225 165 229 173 239 C181 250 179 269 177 286" fill="none" stroke="#f1e9d6" stroke-width="4"/>
+   <path d="M193 225 C187 232 187 240 190 248 C193 255 195 262 195 270 C199 258 205 249 208 240 C210 233 204 228 199 226 C197 224 195 224 193 225 Z" fill="#d8cdb4"/>
+   <path d="M195 247 C198 262 195 279 196 292" fill="none" stroke="#eee4cc" stroke-width="2"/>
+  </g>
+  <g id="tibial-articular-cartilage">
+   <path d="M139 203 C151 198 174 199 190 201 C184 207 170 210 153 207 C145 207 140 206 139 203 Z" fill="#cbd6cf"/>
+   <path d="M215 200 C230 198 248 199 259 204 C254 209 241 210 229 208 C222 207 217 204 215 200 Z" fill="#c0cec8"/>
+  </g>
+  <g id="menisci">
+   <g id="medial-meniscus">
+    <path d="M135 194 C141 197 152 199 165 199 C178 199 187 197 192 195 C190 202 181 206 167 206 C150 206 138 204 133 201 C130 198 132 196 135 194 Z" fill="#a7b7ad"/>
+    <path d="M136 195 C149 201 178 202 190 196" fill="none" stroke="#dbe3d8" stroke-width="1.6"/>
+   </g>
+   <g id="lateral-meniscus">
+    <path d="M215 195 C226 198 241 198 252 194 C258 193 264 194 265 197 C266 202 252 205 240 205 C228 205 217 203 213 200 Z" fill="#a4b5ac"/>
+    <path d="M217 196 C228 200 251 200 261 196" fill="none" stroke="#dce4d9" stroke-width="1.6"/>
+   </g>
+  </g>
+  <g id="femur">
+   <path d="M168 30 C171 52 175 71 174 91 C173 109 164 120 153 129 C139 139 130 151 130 168 C128 183 138 195 152 197 C170 201 188 194 191 180 C194 169 191 163 198 160 C205 158 210 162 211 171 C212 185 224 195 239 195 C255 195 265 184 263 168 C262 151 253 138 241 128 C230 118 225 107 224 91 C222 69 228 50 232 30 C215 26 188 26 168 30 Z" fill="#e8dfca"/>
+   <path d="M216 29 C212 48 213 67 214 87 C214 105 219 124 231 138 C244 153 255 165 251 180 C248 188 240 192 231 194 C251 200 266 185 263 168 C262 151 253 138 241 128 C230 118 225 107 224 91 C222 69 228 50 232 30 Z" fill="#cfc5ad"/>
+   <path d="M176 38 C182 70 185 100 176 117 C170 130 155 138 148 150 C141 160 141 174 148 181" fill="none" stroke="#f5efdf" stroke-width="5"/>
+   <path d="M198 99 C193 123 198 140 198 155 C188 152 185 141 182 134 C183 125 191 110 198 99 Z" fill="#d9cfb8"/>
+   <path d="M203 106 C204 126 211 139 219 145" fill="none" stroke="#f2ead6" stroke-width="2.2"/>
+   <path d="M140 156 C151 145 166 145 178 152 M222 147 C234 143 247 152 250 160" fill="none" stroke="#f1e8d3" stroke-width="2"/>
+  </g>
+  <g id="femoral-articular-cartilage">
+   <path d="M131 170 C131 183 140 190 153 191 C169 194 183 186 187 175 C186 188 174 198 158 198 C141 199 129 188 130 176 Z" fill="#c6d5cd"/>
+   <path d="M214 175 C219 186 227 190 239 190 C251 190 260 181 262 171 C266 184 253 196 239 196 C225 197 216 188 214 175 Z" fill="#baccc4"/>
+   <path d="M141 190 Q163 203 181 186 M225 192 Q242 201 254 188" fill="none" stroke="#e4ece3" stroke-width="1.3"/>
+  </g>
+  <g id="cruciate-ligaments">
+   <g id="posterior-cruciate">
+    <path d="M191 164 C195 171 200 177 207 182 C213 188 216 194 216 200 L208 201 C206 192 201 188 196 183 C188 176 185 170 185 166 Z" fill="#b6b59e"/>
+    <path d="M189 167 Q193 177 204 185 Q211 191 212 197" fill="none" stroke="#d9d7be" stroke-width="1.3"/>
+   </g>
+   <g id="anterior-cruciate">
+    <path d="M210 165 C208 178 201 182 198 190 C196 195 198 200 201 204 L191 205 C187 198 189 190 193 185 C198 177 202 173 204 164 Z" fill="#d4d2b9"/>
+    <path d="M206 168 C204 179 196 185 194 193 L195 201" fill="none" stroke="#eeead4" stroke-width="1.5"/>
+   </g>
+  </g>
+  <g id="collateral-ligaments">
+   <g id="tibial-collateral">
+    <path d="M132 153 C126 169 125 184 129 199 C132 211 139 220 145 229 L156 227 C147 215 141 206 138 196 C134 182 137 168 140 156 Z" fill="#d2cbb0"/>
+    <path d="M135 158 C128 183 133 204 150 225 M131 160 C126 184 130 202 143 218" fill="none" stroke="#eee6cc" stroke-width="1.3"/>
+   </g>
+   <g id="fibular-collateral">
+    <path d="M254 151 C259 168 260 183 264 195 C266 202 268 208 269 212 L276 210 C272 200 269 191 268 182 C266 169 264 158 261 150 Z" fill="#cbc6aa"/>
+    <path d="M258 155 C262 173 263 190 272 208" fill="none" stroke="#eee5c9" stroke-width="1.5"/>
+   </g>
+  </g>
+ </g>
+</svg>

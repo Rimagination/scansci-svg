@@ -1,1 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320"><title id="title">肾脏纵切</title><desc id="desc">肾皮质、髓质锥体、肾盏肾盂、肾血管和输尿管分别编辑。</desc><g id="anatomy_urogenital" stroke-linecap="round" stroke-linejoin="round"><g id="renal-cortex-516"><path d="M218 42C131 19 86 81 99 168C107 261 171 294 228 268C262 251 255 222 224 210C196 195 191 152 220 132C262 107 264 65 218 42Z" fill="#d98582" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M206 59C143 41 103 98 118 171C134 241 174 266 217 253" fill="none" stroke="#f1b9aa" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" /></g><g id="medullary-pyramids-517"><path d="M150 73L207 105L152 118Z" fill="#b76f76" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M126 127L185 145L134 170Z" fill="#b76f76" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M139 188L187 171L178 220Z" fill="#b76f76" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /><path d="M188 241L201 197L229 232Z" fill="#b76f76" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="calyces-pelvis-518"><path d="M205 108L206 143L226 162L201 191M185 148L226 162M186 174L226 162" fill="none" stroke="#2b5662" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" /><path d="M205 108L206 143L226 162L201 191M185 148L226 162M186 174L226 162" fill="none" stroke="#e8ad66" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" /><path d="M218 148L244 163L245 183L226 199L211 185Z" fill="#e8ad66" stroke="#2b5662" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></g><g id="ureter-519"><path d="M237 184Q255 227 249 292" fill="none" stroke="#2b5662" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" /><path d="M237 184Q255 227 249 292" fill="none" stroke="#e8ad66" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" /></g><g id="renal-vessels-520"><path d="M229 137L295 120" fill="none" stroke="#2b5662" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" /><path d="M229 137L295 120" fill="none" stroke="#d98582" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" /><path d="M231 153L302 145" fill="none" stroke="#2b5662" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" /><path d="M231 153L302 145" fill="none" stroke="#86b7d3" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" /></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="640" viewBox="0 0 400 320">
+ <title>肾脏纵切</title>
+ <desc>肾脏冠状纵切的通用解剖示意。外侧皮质在髓质锥体之间形成肾柱；髓锥宽基底朝外，乳头朝向肾窦并进入肾盏，肾盏汇入肾盂后连续收束为输尿管。肾门血管截短并错开显示，不表达前后次序或完整分支，锥体数量与尺寸不作定量解释。</desc>
+ <g id="anatomy_urogenital" stroke-linecap="round" stroke-linejoin="round">
+  <g id="renal-capsule">
+   <path d="M205 33 C237 33 262 50 264 76 C267 100 252 114 232 127 C215 139 208 150 210 167 C213 185 229 190 245 202 C263 216 261 239 246 255 C228 276 195 282 165 271 C129 259 106 231 96 198 C84 161 86 117 101 85 C120 50 157 29 190 32 Z" fill="#b7776c"/>
+   <path d="M196 38 C225 34 252 49 257 69 C264 91 249 110 229 123 C210 136 202 151 205 168 C208 190 226 196 240 207 C255 220 252 237 240 251 C222 269 195 275 169 265 C135 255 114 228 104 196 C93 162 94 121 109 90 C126 57 159 36 190 37 Z" fill="#d69a88"/>
+  </g>
+  <g id="renal-cortex">
+   <path d="M191 46 C218 42 241 52 247 71 C254 89 240 107 220 120 C201 133 194 149 198 170 C202 194 218 202 231 214 C243 225 239 241 227 251 C213 263 191 265 170 257 C140 246 122 222 113 192 C103 158 103 125 117 97 C131 67 160 48 191 46 Z" fill="#e3b49c"/>
+   <path d="M140 72 C115 93 108 121 109 151 C109 178 115 203 130 224 M162 250 C181 260 205 261 222 253 M211 45 Q232 48 241 61" fill="none" stroke="#f0cbb0" stroke-width="2.2"/>
+  </g>
+  <g id="renal-sinus">
+   <path d="M196 97 C212 92 226 101 227 112 C230 127 219 136 225 148 C233 160 246 166 244 181 C241 194 231 196 228 209 C225 225 212 232 202 222 C196 215 199 206 189 202 C173 198 162 191 164 179 C166 166 170 160 165 149 C157 134 164 125 178 120 C190 117 185 102 196 97 Z" fill="#edd3b2"/>
+  </g>
+  <g id="renal-vessels">
+   <g id="renal-artery">
+    <path d="M211 132 C233 143 254 140 274 131 C286 126 296 120 309 116 L314 127 C297 132 287 139 274 144 C250 154 230 151 209 143 Z" fill="#b96e64"/>
+    <path d="M216 136 C241 146 262 142 282 133 Q298 125 310 122" fill="none" stroke="#dca18b" stroke-width="3"/>
+    <path d="M211 132 C208 127 209 122 206 116 L212 114 C218 123 217 130 221 134 Z" fill="#b96e64"/>
+   </g>
+   <g id="renal-vein">
+    <path d="M222 148 C243 152 258 157 277 152 C292 148 302 144 318 143 L320 159 C302 159 291 164 278 166 C259 170 242 167 221 161 Z" fill="#789ba3"/>
+    <path d="M226 152 C247 158 261 164 279 159 Q301 151 317 151" fill="none" stroke="#a3bcc0" stroke-width="3"/>
+   </g>
+  </g>
+  <g id="pelvis-and-ureter">
+   <path d="M215 143 C224 148 228 160 240 167 C250 172 263 173 268 182 C271 192 265 201 262 212 C255 234 258 259 263 289 C259 294 252 295 246 292 C243 266 240 241 245 219 C249 203 248 198 241 192 C232 185 218 185 211 176 C206 166 210 151 215 143 Z" fill="#d7b58b"/>
+   <path d="M219 149 C230 165 240 171 252 176 C264 181 264 188 259 199 C248 224 249 257 255 289" fill="none" stroke="#f2d8af" stroke-width="6"/>
+  </g>
+  <g id="renal-calyces">
+   <g id="upper-calyces">
+    <path d="M195 107 C197 98 211 97 218 103 C223 111 217 122 213 127 C212 141 220 150 225 159 L216 165 C205 153 202 140 203 127 C194 123 190 115 195 107 Z" fill="#dfc19a"/>
+    <path d="M179 117 C177 110 184 105 191 109 C200 115 201 124 205 128 L212 144 L204 149 C199 137 193 134 186 132 C180 129 177 123 179 117 Z" fill="#dfc19a"/>
+    <path d="M207 113 C212 134 207 144 220 156 M188 119 Q192 131 205 140" fill="none" stroke="#f5dfbd" stroke-width="3.8"/>
+   </g>
+   <g id="middle-calyx">
+    <path d="M173 142 C178 136 189 140 190 148 C192 153 199 154 207 156 L221 160 L219 171 C204 164 194 167 184 161 C173 161 166 150 173 142 Z" fill="#dfc19a"/>
+    <path d="M180 149 C185 161 205 157 216 165" fill="none" stroke="#f4dfbe" stroke-width="3.6"/>
+   </g>
+   <g id="lower-calyces">
+    <path d="M174 180 C178 173 190 174 193 181 C201 180 208 174 218 174 L223 185 C210 185 202 190 192 192 C187 199 177 198 173 190 C171 187 172 183 174 180 Z" fill="#dfc19a"/>
+    <path d="M198 205 C201 197 212 198 217 204 C222 199 223 188 227 181 L235 187 C230 196 231 207 220 212 C217 220 207 223 201 218 C196 216 195 210 198 205 Z" fill="#dfc19a"/>
+    <path d="M182 186 C195 191 208 179 218 181 M207 212 C225 212 224 194 230 185" fill="none" stroke="#f5dfbd" stroke-width="3.5"/>
+   </g>
+  </g>
+  <g id="medullary-pyramids">
+   <g id="pyramid-superior">
+    <path d="M179 65 C193 58 213 60 226 69 C226 83 215 99 209 109 C206 114 202 114 200 108 C194 92 184 81 179 65 Z" fill="#bf8274"/>
+    <path d="M186 67 Q199 86 204 108 M198 65 Q205 83 207 99 M215 70 Q212 86 208 103" fill="none" stroke="#d8a18a" stroke-width="1.4"/>
+   </g>
+   <g id="pyramid-upper-lateral">
+    <path d="M131 93 C139 82 151 75 164 72 C177 83 182 99 188 112 C191 118 187 123 181 119 C166 110 146 107 131 93 Z" fill="#c18473"/>
+    <path d="M140 91 Q162 102 183 116 M151 83 Q171 100 181 111 M162 79 Q177 96 185 113" fill="none" stroke="#dca78d" stroke-width="1.4"/>
+   </g>
+   <g id="pyramid-middle-lateral">
+    <path d="M118 116 C112 127 112 146 116 160 C135 160 158 151 176 152 C183 152 185 146 179 143 C158 133 142 117 118 116 Z" fill="#bd7f70"/>
+    <path d="M120 124 Q148 133 177 146 M117 136 Q151 140 176 148 M121 151 Q149 147 172 149" fill="none" stroke="#dba48a" stroke-width="1.4"/>
+   </g>
+   <g id="pyramid-lower-lateral">
+    <path d="M122 178 C122 194 133 214 146 223 C165 214 172 199 183 191 C189 187 186 183 180 183 C160 184 144 175 122 178 Z" fill="#bc7d6d"/>
+    <path d="M130 183 Q155 188 180 186 M134 200 Q158 194 180 188 M145 216 Q163 201 182 189" fill="none" stroke="#dba288" stroke-width="1.4"/>
+   </g>
+   <g id="pyramid-inferior">
+    <path d="M161 237 C172 247 191 253 207 249 C214 238 211 225 212 215 C213 208 208 205 203 210 C192 222 173 223 161 237 Z" fill="#bf8272"/>
+    <path d="M170 238 Q191 227 206 213 M183 245 Q202 229 208 215 M201 245 Q208 233 210 217" fill="none" stroke="#dba58b" stroke-width="1.4"/>
+   </g>
+  </g>
+  <g id="capsule-cut-edge"><path d="M206 34 C170 29 134 46 113 74 C96 98 88 132 91 163 C94 209 111 242 145 263" fill="none" stroke="#edb9a0" stroke-width="1.2"/></g>
+ </g>
+</svg>
