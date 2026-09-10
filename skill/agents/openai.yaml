@@ -1,4 +1,4 @@
 interface:
   display_name: "scansci-svg"
-  short_description: "科研 SVG 绘制与可编辑 PPT 转换，推荐使用 GPT-6 Astra"
-  default_prompt: "使用 $scansci-svg，将我的描述、照片或生成式参考图绘制为可编辑的科研 SVG，核对科学内容、空间与连接关系，并提供实际预览。"
+  short_description: "科研图重建、精细临摹、部件编辑与组图，推荐 GPT-6 Astra"
+  default_prompt: "使用 $scansci-svg，按我的描述或参考制作可编辑科研图件；根据用途选择重建与精细临摹，保留有意义的细节，核对科学关系和编辑组织，并提供实际预览。"

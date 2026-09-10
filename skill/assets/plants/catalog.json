@@ -61,7 +61,7 @@
       "吐丝后结实初期",
       "根茎叶花果"
     ],
-    "description": "吐丝后结实初期。粗壮主秆、宽带状弯垂叶、顶生雄穗、叶腋雌穗和苞叶花丝；基部节根及支柱根完整展示。 根系按资料作压缩示意，整株各部件可编辑。",
+    "description": "Zea mays，吐丝后结实初期。粗壮节秆、互生宽长拱垂叶与包茎叶鞘；顶端分枝雄穗，叶腋饱满果穗由苞叶包裹，顶端垂出成束花丝。基部展示支柱根与节根，地下须根按版面压缩示意。根、茎、每片叶、雄穗、果穗可分别编辑。",
     "author": "ScanSci",
     "license": "",
     "local_original": true,
@@ -69,7 +69,8 @@
     "source_url": "https://plants.ces.ncsu.edu/plants/zea-mays/",
     "created_at": "2026-09-08",
     "preview_url": "./assets/plants/whole-maize.svg",
-    "demo": true
+    "demo": true,
+    "visual_revision": "maize-20260909-r2"
   },
   {
     "id": "whole-sunflower",

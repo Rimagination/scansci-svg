@@ -1,17 +1,27 @@
 ---
 name: scansci-svg
-description: Use when creating or revising publication-oriented scientific SVG illustrations, diagrams, or assets from text, photographs, or generated images, including reference-label reconstruction, targeted edits to semantic parts, converting scientific figures or SVG into editable PPT/PPTX, and submitting a finished SVG to ScanSci when the user asks to upload or share it. Applies where object identity, spatial relationships, connections, and editability matter. Excludes pixel-exact tracing, stock-asset retrieval, and data-chart generation.
+description: Reconstruct or closely reproduce reference images as editable scientific SVGs, preserving meaningful detail. Revise semantic parts, maintain consistent figure families, compose publication figures and deliver editable PPTX. Also supports requested drawing replays and process animations.
 ---
 
-# scansci-svg · 科研发表级矢量绘制
+# scansci-svg · 可编辑科研图件
 
-**推荐模型：GPT-6 Astra。** 本项目优先推荐该模型完成视觉理解、语义重建和 SVG 直接构形。其他模型的成图质量可能大打折扣，尤其体现在复杂形态、部件连接、自然轮廓与局部修改。首次使用时向用户提示这一推荐；沿用用户选定的模型与设置。
+**推荐模型：GPT-6 Astra。** 沿用用户选定的模型与设置；具体效果按任务验收和同条件对照记录。
 
 将照片、文本和生成式视觉参考转化为科学含义准确、视觉表达清晰、可持续编辑的 SVG。分别验收科学内容、版面可读性和编辑行为。
 
 默认直接构形，将科学约束融入绘制；遇到具体困难时使用相关参考、几何辅助或编辑检查。
 
+主线是忠实重建、精细临摹、部件修改、成套一致性、论文组图与可编辑 PPT。价值按具体任务中的还原质量、修改范围、重复修改工作量及交付可用性判断；格式数量和路径数量仅记录实现情况。动画与回放按用户需要启用，实体制作和三维处理放在按需扩展入口。
+
 文字直接说明动作、依据和结果。检查记录写实际完成项；影响当前图件的不确定性写清具体对象、缺项及处理方式。
+
+## 指令不明确时先追问
+
+- 先结合当前指令、附件和已确认的上下文判断目标。存在会明显改变结果的多种合理解释时，在相关制作前追问；重点澄清对象与范围、忠实还原或重新设计、科学阶段/关系、组图或变体的区别，以及交付格式与编辑粒度。
+- 每轮集中问 1–3 个关键问题，用具体选项说明不同结果，并给出简短推荐；用户可以自由补充。问题直接指出缺少的决定，例如“这张图希望完整还原，还是只提取植物？”、“这套变体要比较生长阶段，还是同一对象的配色？”。
+- 等用户回答后再执行依赖该选择的部分；期间可读取源文件、盘点已有素材或核实共同需要的事实。回答到达后将其融入任务要求，直接继续执行。推荐项只有在用户选择或明确委托按推荐执行后才作为决定。
+- 已明确或已确认的要求直接沿用。含义清楚的“转为 SVG”采用忠实重建；已委托自行设计的风格及普通技术细节按合理默认执行。可由原文件或可靠资料核实的事实先查证，将用户偏好与事实缺项分开处理。
+- “继续”沿用尚未完成的已确认任务或明确的下一步；当前任务已完成、后续方向有多个时，先问要推进哪一项。“优化”“不好看”等反馈若无法从上下文定位目标，先澄清要改的图件、部位或效果。
 
 ## 普通单图的默认执行
 
@@ -21,6 +31,16 @@ description: Use when creating or revising publication-oriented scientific SVG i
 - **检查随风险**：普通图由绘制者集中核对关键科学关系、实际渲染和编辑分组；发现问题后修正并复查受影响部分。共享引用、复杂联动、目标编辑器兼容或用户明确要求时使用专项检查；独立审查按实际风险与项目要求启动。
 
 首次在 Zcode 等新宿主使用、看图工具不确定，或实际绘图失稳时，读 [跨模型执行卡](references/cross-model.md)。普通已验证任务无需额外加载。用户要求模型对比或维护能力记录时，再读 [轻量回归评测](references/evaluation.md)。
+
+## 组图与成套制作
+
+连续制作时保留已验收的基准 SVG：从它制作指定变体，再组合面板，返修直接修改交付源文件。沿用部件身份、来源和配色含义；只加载当前操作需要的参考。单次交付按用户请求，不自动展开整个流程。
+
+已有素材的重复拼版复用 `compose_svg.py`；按 ID 改色、移动和修改简单标签可用 `edit_svg.py`，用原路径完成精确修改。脚本用法分别见下面的组图参考与 [文字与部件编辑](references/editable-workflow.md#按部件执行修改)。需要新形态时再直接构形。
+
+- 用户要求拼成整图、多面板对比、机制图或图形摘要时，读 [科研组图](references/figure-composition.md)。先确定整图表达与关系，再复用匹配素材、协调样式并组织面板、对象和连接；已有 SVG 的重复拼版可用配套脚本。
+- 用户要求同一对象的阶段、状态、视角或展示变体时，读 [成套变体](references/variation-and-learning.md#成套变体)。确定共同特征与每版变化，保留对应部件身份，逐版验证变化并统一整套风格；默认交付各版 SVG 与一张总览预览。
+- “不同阶段排成一张图”等请求组合两种模式：先得到科学内容匹配的变体，再按比较目的组图。复用本套已核对的资料和结构，缺项按变化范围补查。
 
 ## 三类输入，共用科学表达核心
 
@@ -34,7 +54,9 @@ description: Use when creating or revising publication-oriented scientific SVG i
 
 已有 SVG 优先在源文件中局部修改；纯文字任务直接构形。有明确保真困难时，可对必要部件使用已有矢量化工具，分别核对轮廓、语义分组与文字，并计入整理时间。调用外部服务须符合当前任务授权；不固定绑定服务，也不为普通任务增加整图生成、去字、矢量化的前置链路。
 
-位图示意图按“整图含义 → 对象及关系 → 部件与叠放 → 几何与样式”重建。先判断图中有什么、如何关联，再决定路径；对象多时继续拆解到可识别的部件。简单对象直接构形，必要的复杂局部轮廓才按需描摹。具体决策与失败处理见 [转绘洁净度](references/editable-workflow.md#转绘洁净度)，计时包含构形、整理与交付。
+用户要求“把这张图转为 SVG”“按原图还原”时，采用 [参考图忠实重建](references/editable-workflow.md#参考图忠实重建)。要求精细临摹、插画复现或保留质感时，按 [保真与细节选择](references/editable-workflow.md#保真与细节选择) 加强局部轮廓、线条、纹理与明暗还原；同一图可混合使用语义重建和局部临摹。用户仅参考风格、提取对象或要求重新设计时沿用对应范围。
+
+位图示意图按“整图含义 → 对象及关系 → 部件与叠放 → 几何与样式”重建。简单对象直接构形，必要的复杂局部轮廓才按需描摹；具体处理见 [转绘洁净度](references/editable-workflow.md#转绘洁净度)，计时包含构形、整理与交付。
 
 ## 科学内容怎样进入绘制
 
@@ -48,6 +70,9 @@ description: Use when creating or revising publication-oriented scientific SVG i
 
 ## 交付约定
 
+- 用户要求展示运输、装配、运动或机制步骤时，按 [科学过程动画](references/scientific-animation.md) 将已确认的科学关系写成部件时间线，输出视频/GIF；过程时间有数据依据时按数据表达。
+- 用户要求参数化生成或重复更新论文组图时，分别使用 [参数化批量生成](references/variation-and-learning.md#参数化批量生成) 和 [科研组图](references/figure-composition.md)，交付可复用参数/布局及生成结果。
+- 用户说“给我生成回放”“展示从零绘制过程”时，按 [绘制回放](references/drawing-replay.md) 从当前 SVG 生成离散绘制步骤，默认交付 MP4；指定 GIF 或离线 HTML Demo 时交对应格式。步骤根据成稿结构重建，实际历史录屏需有对应记录。
 - 用户说“帮我上传 ScanSci”“把这张图分享到素材库”时，按 [上传到 ScanSci](references/scansci-upload.md) 选择本轮明确的成稿、补齐投稿信息并提交。复用已确认的署名、许可和有效授权；首次需要登录时提供官方授权入口。以服务端返回的素材 ID 和状态说明结果。上传流程只在用户提出提交请求时启用。
 - 用户要求图片/SVG 转为可编辑 PPT/PPTX 时，按 [可编辑 PPTX 交付](references/pptx-delivery.md) 复用现有原生形状导出工具。单图默认一页，保持原有内容和宽高比；验证实际 PPT 中的文字与部件编辑，交付 PPTX 和实际渲染预览。
 - 默认透明背景 SVG，PNG 仅作预览；需要文字时使用可改的 `<text>`，保留可编辑的上下标与特殊字符。参考图含字时，先核对文字内容和对应对象，按需记录位置、方向及层叠；疑字不猜，字体无法识别时用合适替代并说明差异。复杂文字重建读 [文字与部件编辑](references/editable-workflow.md)。
@@ -91,6 +116,8 @@ description: Use when creating or revising publication-oriented scientific SVG i
 - [人类活动与信息](references/catalog-society.md)：农林渔业、建筑交通、人物文化、过程与信息系统。
 
 ## 遇到具体困难再查
+
+- 仅在用户要求实体制作或三维处理时读 [实体制作与分层展示](references/fabrication-and-layers.md)；沿用既有工具，按选定的用途与尺寸交付。
 
 - 部件联动范例：[培养箱](assets/incubator.svg)，用于观察窗整组编辑；仅在类似需求时查看，按新描述调整。
 - 构形/投影：[共同画法](references/drawing-grammar.md)；数量、连接与同类变化：[变体规则](references/variation-and-learning.md)。
