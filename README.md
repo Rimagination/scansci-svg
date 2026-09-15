@@ -63,7 +63,7 @@ ScanSci SVG 是供 Codex 等 AI Agent 使用的科研绘图 skill。你可以描
 
 | 原始照片 | SVG 重建预览 |
 | --- | --- |
-| ![Laitche 拍摄的树麻雀原始照片](https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@5a3b35cdf0ec07cf45da0c0d13e722ea71f5704f/assets/examples/sparrow-photo-svg/source-photo.jpg) | ![根据同一照片重建的树麻雀 SVG，白底预览](https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@5a3b35cdf0ec07cf45da0c0d13e722ea71f5704f/assets/examples/sparrow-photo-svg/rebuilt-preview.png) |
+| ![Laitche 拍摄的树麻雀原始照片](https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@5a3b35cdf0ec07cf45da0c0d13e722ea71f5704f/assets/examples/sparrow-photo-svg/source-photo.jpg) | ![根据同一照片重建的树麻雀 SVG，白底预览](https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@311cd880518b5a36e089e090aca0f18bbe56bedc/assets/examples/sparrow-photo-svg/rebuilt-preview.png) |
 
 SVG 背景透明，头部、喙、眼、翅膀、尾羽和腿足可以分别选中修改。这个案例采用简化的自然插画风格，羽毛边界与细纹经过概括，局部比例与照片仍有差异。
 
