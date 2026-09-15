@@ -2,7 +2,7 @@
 
 <a href="https://github.com/Rimagination/scansci-svg/blob/main/assets/brand/scansci-svg-banner.svg"><img src="https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@59f10882605358a124e987622d4a594c5ced800d/assets/brand/scansci-svg-banner.png" width="100%" alt="ScanSci SVG — 让科学表达生动可见"></a>
 
-<p><a href="#quick-start">开始使用</a> · <a href="#use-cases">能做什么</a> · <a href="#botanical-ink">植物墨线图</a> · <a href="https://www.scansci.com/symbols/">浏览素材库</a> · <a href="#installation">安装</a></p>
+<p><a href="#quick-start">开始使用</a> · <a href="#use-cases">能做什么</a> · <a href="#photo-to-svg">照片到 SVG</a> · <a href="#botanical-ink">植物墨线图</a> · <a href="https://www.scansci.com/symbols/">浏览素材库</a> · <a href="#installation">安装</a></p>
 
 </div>
 
@@ -54,6 +54,22 @@ ScanSci SVG 是供 Codex 等 AI Agent 使用的科研绘图 skill。你可以描
 需要精细临摹时，重点保留轮廓、斑纹、线条和明暗；需要后续修改时，重点组织好要一起移动或调整的部件。参考图中看不清的部分和重建后的可见差异，会在交付时说明。
 
 > 把这张鸟类插画重建成 SVG，保留羽毛斑纹，翅膀与尾羽分别可编辑。
+
+<a id="photo-to-svg"></a>
+
+### 一只麻雀，从照片走进你的图里
+
+左边是 Laitche 在大阪拍摄的树麻雀，右边是根据这张照片重新绘制的 SVG。保留它站立时的体态、栗色头冠、白颊中的黑斑和折叠的翅膀，去掉石台与背景，就能把这只鸟放进自己的课件或生态场景。
+
+| 原始照片 | SVG 重建预览 |
+| --- | --- |
+| ![Laitche 拍摄的树麻雀原始照片](https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@5a3b35cdf0ec07cf45da0c0d13e722ea71f5704f/assets/examples/sparrow-photo-svg/source-photo.jpg) | ![根据同一照片重建的树麻雀 SVG，白底预览](https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@5a3b35cdf0ec07cf45da0c0d13e722ea71f5704f/assets/examples/sparrow-photo-svg/rebuilt-preview.png) |
+
+SVG 背景透明，头部、喙、眼、翅膀、尾羽和腿足可以分别选中修改。这个案例采用简化的自然插画风格，羽毛边界与细纹经过概括，局部比例与照片仍有差异。
+
+[下载麻雀 SVG](assets/examples/sparrow-photo-svg/sparrow-rebuilt.svg) · [查看照片原作](https://commons.wikimedia.org/wiki/File:Tree_Sparrow_August_2007_Osaka_Japan.jpg) · [案例与来源说明](assets/examples/sparrow-photo-svg/README.md)
+
+照片：Laitche，公有领域。SVG：ScanSci，AI 辅助绘制，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。
 
 ### 让多个对象组成一张完整的图
 
