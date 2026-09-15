@@ -133,9 +133,9 @@ ScanSci SVG 支持**先生成墨线参考，再重建可编辑 SVG**。从物种
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/Rimagination/scansci-svg/blob/main/skill/assets/library/animal_bird.svg"><img src="https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@59f10882605358a124e987622d4a594c5ced800d/assets/examples/gallery/animal-bird.png" height="230" alt="枝上鸣禽 SVG"></a><br>枝上鸣禽</td>
-    <td align="center" width="33%"><a href="https://github.com/Rimagination/scansci-svg/blob/main/skill/assets/plants/whole-maize.svg"><img src="https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@59f10882605358a124e987622d4a594c5ced800d/assets/examples/gallery/whole-maize.png" height="230" alt="玉米全株 SVG"></a><br>玉米全株</td>
-    <td align="center" width="33%"><a href="https://github.com/Rimagination/scansci-svg/blob/main/skill/assets/library/animal_bony_fish.svg"><img src="https://cdn.jsdelivr.net/gh/Rimagination/scansci-svg@59f10882605358a124e987622d4a594c5ced800d/assets/examples/gallery/animal-bony-fish.png" height="230" alt="硬骨鱼 SVG"></a><br>硬骨鱼</td>
+    <td align="center" width="33%"><a href="https://www.scansci.com/api/symbols/4acd9b28-3028-49ee-a15f-32fc8805650f/file?download=1"><img src="https://www.scansci.com/api/symbols/4acd9b28-3028-49ee-a15f-32fc8805650f/file" height="230" alt="戴胜 SVG"></a><br>戴胜</td>
+    <td align="center" width="33%"><a href="https://www.scansci.com/symbols/assets/nature/plant-hemerocallis-fulva.svg"><img src="https://www.scansci.com/symbols/assets/nature/plant-hemerocallis-fulva.svg" height="230" alt="萱草 SVG"></a><br>萱草</td>
+    <td align="center" width="33%"><a href="https://www.scansci.com/api/symbols/27d1dbf9-cf20-40b6-ace1-68ad99e42909/file?download=1"><img src="https://www.scansci.com/api/symbols/27d1dbf9-cf20-40b6-ace1-68ad99e42909/file" height="230" alt="金凤蝶 SVG"></a><br>金凤蝶</td>
   </tr>
 </table>
 
