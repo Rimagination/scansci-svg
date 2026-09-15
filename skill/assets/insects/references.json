@@ -1,0 +1,318 @@
+[
+  {
+    "id": "nature-insect-honeybee",
+    "scientific_name": "Apis mellifera",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/51893828/medium.jpeg",
+      "source_url": "https://www.inaturalist.org/observations/33059755",
+      "photo_url": "https://www.inaturalist.org/photos/51893828",
+      "recorded_name": "Apis mellifera",
+      "attribution": "(c) Sequoia Janirella Wrens, some rights reserved (CC BY-NC)",
+      "media_license": "cc-by-nc",
+      "quality_grade": "research",
+      "observed_on": "2019-09-20",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "工蜂背面，金褐色胸部、分节腹部、两对翅及加宽后足胫节。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-globe-skimmer",
+    "scientific_name": "Pantala flavescens",
+    "reference": {
+      "image_url": "https://static.inaturalist.org/photos/216472811/medium.jpeg",
+      "source_url": "https://www.inaturalist.org/observations/127505218",
+      "photo_url": "https://www.inaturalist.org/photos/216472811",
+      "recorded_name": "Pantala flavescens",
+      "attribution": "(c) awayk3n, all rights reserved",
+      "media_license": null,
+      "quality_grade": "research",
+      "observed_on": "2021-12-17",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 9,
+          "value_id": 11
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫展翅，黄褐色细长腹部、宽后翅及相接的大复眼。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-mantis",
+    "scientific_name": "Tenodera sinensis",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238633702/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/139512084",
+      "photo_url": "https://www.inaturalist.org/photos/238633702",
+      "recorded_name": "Tenodera sinensis",
+      "attribution": "(c) Bill Keim, some rights reserved (CC BY)",
+      "media_license": "cc-by",
+      "quality_grade": "research",
+      "observed_on": "2022-09-21",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 9,
+          "value_id": 10
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫背面，三角形头部、细长前胸和带刺捕捉足。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-locust",
+    "scientific_name": "Locusta migratoria",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/661889412/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/362635867",
+      "photo_url": "https://www.inaturalist.org/photos/661889412",
+      "recorded_name": "Locusta migratoria",
+      "attribution": "(c) William Harland, some rights reserved (CC BY)",
+      "media_license": "cc-by",
+      "quality_grade": "research",
+      "observed_on": "2026-05-14",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 9,
+          "value_id": 10
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫侧面，粗大后足股节、带刺胫节及折叠前翅。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-housefly",
+    "scientific_name": "Musca domestica",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472621011/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/263115082",
+      "photo_url": "https://www.inaturalist.org/photos/472621011",
+      "recorded_name": "Musca domestica",
+      "attribution": "(c) METROANGEL, some rights reserved (CC BY-NC)",
+      "media_license": "cc-by-nc",
+      "quality_grade": "research",
+      "observed_on": "2025-02-25",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 9,
+          "value_id": 11
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫背面，红褐复眼、胸背四条纵纹及一对翅。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-mosquito",
+    "scientific_name": "Aedes albopictus",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67195084/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/42323188",
+      "photo_url": "https://www.inaturalist.org/photos/67195084",
+      "recorded_name": "Aedes albopictus",
+      "attribution": "(c) Thomas Shahan, some rights reserved (CC BY-NC)",
+      "media_license": "cc-by-nc",
+      "quality_grade": "research",
+      "observed_on": "2019-08-04",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 9,
+          "value_id": 10
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "雌成虫背面，胸背中央白线、足部白环及细长喙。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-ant",
+    "scientific_name": "Lasius niger",
+    "reference": {
+      "image_url": "https://static.inaturalist.org/photos/473996660/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/263812288",
+      "photo_url": "https://www.inaturalist.org/photos/473996660",
+      "recorded_name": "Lasius niger",
+      "attribution": "(c) Erik Schabel, all rights reserved",
+      "media_license": null,
+      "quality_grade": "research",
+      "observed_on": "2023-07-13",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "工蚁背面，肘状触角、单节腹柄和六足。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-cicada",
+    "scientific_name": "Cryptotympana atrata",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/706473373/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/385876657",
+      "photo_url": "https://www.inaturalist.org/photos/706473373",
+      "recorded_name": "Cryptotympana atrata",
+      "attribution": "(c) Martin Kalfatovic, some rights reserved (CC BY)",
+      "media_license": "cc-by",
+      "quality_grade": "research",
+      "observed_on": "2026-07-28",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫背面，宽头部、三枚单眼及透明有脉前翅。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-cockroach",
+    "scientific_name": "Blattella germanica",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150412244/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/90973171",
+      "photo_url": "https://www.inaturalist.org/photos/150412244",
+      "recorded_name": "Blattella germanica",
+      "attribution": "(c) Bogdan V. Kryzhatyuk, some rights reserved (CC BY-NC-SA)",
+      "media_license": "cc-by-nc-sa",
+      "quality_grade": "research",
+      "observed_on": "2021-03-18",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫背面，前胸背板两条暗纹、长触角及带刺足。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  },
+  {
+    "id": "nature-insect-moth",
+    "scientific_name": "Plutella xylostella",
+    "reference": {
+      "image_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650661928/medium.jpg",
+      "source_url": "https://www.inaturalist.org/observations/356779518",
+      "photo_url": "https://www.inaturalist.org/photos/650661928",
+      "recorded_name": "Plutella xylostella",
+      "attribution": "(c) gg_copen, some rights reserved (CC BY-NC)",
+      "media_license": "cc-by-nc",
+      "quality_grade": "research",
+      "observed_on": "2026-04-30",
+      "annotations": [
+        {
+          "attribute_id": 1,
+          "value_id": 2
+        },
+        {
+          "attribute_id": 17,
+          "value_id": 18
+        },
+        {
+          "attribute_id": 22,
+          "value_id": 24
+        }
+      ]
+    },
+    "visible_traits": "成虫背面，窄长折叠前翅及沿背中线相接的浅色菱形斑。",
+    "reference_use": "观察形态与色型，独立构形；照片许可单独记录。"
+  }
+]

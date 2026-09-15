@@ -1,0 +1,309 @@
+[
+  {
+    "id": "nature-bird-common-kingfisher",
+    "title": "普通翠鸟",
+    "category": "animals",
+    "domain": "动物",
+    "subcategory": "animal_bird",
+    "subcategory_title": "鸟类",
+    "tags": [
+      "普通翠鸟",
+      "Alcedo atthis",
+      "自然主义",
+      "鸟类",
+      "鸟类组图"
+    ],
+    "description": "Alcedo atthis。雄成鸟。蓝色头背、橙色颊腹、白色颈斑、全黑长尖喙和短尾。 头部、身体、翅、尾与足分别分组编辑。",
+    "author": "ScanSci",
+    "license": "",
+    "local_original": true,
+    "status": "original",
+    "source_url": "https://www.rspb.org.uk/birds-and-wildlife/kingfisher",
+    "created_at": "2026-09-09",
+    "preview_url": "./assets/nature/bird-common-kingfisher.svg",
+    "demo": true,
+    "portrait": false,
+    "visual_revision": "nature-20260909",
+    "file": "bird-common-kingfisher.svg",
+    "components": [
+      {
+        "id": "kingfisher",
+        "label": "普通翠鸟",
+        "selector": null,
+        "bounds": [
+          163,
+          76,
+          396,
+          349
+        ],
+        "view": "侧面，停栖，向右",
+        "style": "自然主义分层色块",
+        "scenes": [
+          "河岸生境",
+          "鸟类观察"
+        ],
+        "anchors": {
+          "perch": [
+            280,
+            398
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "nature-bird-white-wagtail",
+    "title": "白鹡鸰",
+    "category": "animals",
+    "domain": "动物",
+    "subcategory": "animal_bird",
+    "subcategory_title": "鸟类",
+    "tags": [
+      "白鹡鸰",
+      "Motacilla alba leucopsis",
+      "自然主义",
+      "鸟类",
+      "鸟类组图"
+    ],
+    "description": "Motacilla alba leucopsis。雄成鸟繁殖羽型。白脸、白喉、独立黑胸斑，长尾两侧有白色外尾羽。 头部、身体、翅、尾与足分别分组编辑。",
+    "author": "ScanSci",
+    "license": "",
+    "local_original": true,
+    "status": "original",
+    "source_url": "https://www.orientalbirdclub.org/s/White-Wagtail.pdf",
+    "created_at": "2026-09-09",
+    "preview_url": "./assets/nature/bird-white-wagtail.svg",
+    "demo": true,
+    "portrait": false,
+    "visual_revision": "nature-20260909",
+    "file": "bird-white-wagtail.svg",
+    "components": [
+      {
+        "id": "wagtail",
+        "label": "白鹡鸰",
+        "selector": null,
+        "bounds": [
+          42,
+          121.25018310546875,
+          522,
+          303.74981689453125
+        ],
+        "view": "侧面，站立，向右",
+        "style": "自然主义分层色块",
+        "scenes": [
+          "河岸生境",
+          "草地鸟类观察"
+        ],
+        "anchors": {
+          "ground": [
+            456,
+            420
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "nature-bird-barn-swallow",
+    "title": "家燕",
+    "category": "animals",
+    "domain": "动物",
+    "subcategory": "animal_bird",
+    "subcategory_title": "鸟类",
+    "tags": [
+      "家燕",
+      "Hirundo rustica",
+      "自然主义",
+      "鸟类",
+      "鸟类组图"
+    ],
+    "description": "Hirundo rustica。东亚暖米色腹面成鸟型，飞行姿态。钢蓝背、栗红额喉、长尖双翼和深叉尾。 头部、身体、翅、尾与足分别分组编辑。",
+    "author": "ScanSci",
+    "license": "",
+    "local_original": true,
+    "status": "original",
+    "source_url": "https://www.allaboutbirds.org/guide/barn_swallow/id",
+    "created_at": "2026-09-09",
+    "preview_url": "./assets/nature/bird-barn-swallow.svg",
+    "demo": true,
+    "portrait": false,
+    "visual_revision": "nature-20260909",
+    "file": "bird-barn-swallow.svg",
+    "components": [
+      {
+        "id": "swallow",
+        "label": "家燕",
+        "selector": null,
+        "bounds": [
+          76,
+          42,
+          445,
+          377
+        ],
+        "view": "斜侧面，展翼飞行，向右",
+        "style": "自然主义分层色块",
+        "scenes": [
+          "飞行鸟类",
+          "河岸生境"
+        ],
+        "anchors": {}
+      }
+    ]
+  },
+  {
+    "id": "nature-plant-typha-latifolia",
+    "title": "宽叶香蒲",
+    "category": "plants",
+    "domain": "植物",
+    "subcategory": "plant_marsh_floating",
+    "subcategory_title": "水生植物",
+    "tags": [
+      "宽叶香蒲",
+      "Typha latifolia",
+      "自然主义",
+      "地上植株",
+      "植物组图"
+    ],
+    "description": "Typha latifolia。结实期株丛。宽带状长叶与棕色圆柱果穗，果穗上端保留雄花脱落后的细轴。 完整地上植株，按器官分组编辑。",
+    "author": "ScanSci",
+    "license": "",
+    "local_original": true,
+    "status": "original",
+    "source_url": "https://efloras.org/florataxon.aspx?flora_id=1&taxon_id=220013917",
+    "created_at": "2026-09-09",
+    "preview_url": "./assets/nature/plant-typha-latifolia.svg",
+    "demo": true,
+    "portrait": true,
+    "visual_revision": "nature-20260909",
+    "file": "plant-typha-latifolia.svg",
+    "components": [
+      {
+        "id": "cattail",
+        "label": "宽叶香蒲",
+        "selector": null,
+        "bounds": [
+          108,
+          82,
+          388,
+          672.77001953125
+        ],
+        "view": "地上株丛，结实期",
+        "style": "自然主义分层色块",
+        "scenes": [
+          "挺水植物带",
+          "河岸生境"
+        ],
+        "anchors": {
+          "ground": [
+            306,
+            751
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "nature-plant-miscanthus-sinensis",
+    "title": "芒草",
+    "category": "plants",
+    "domain": "植物",
+    "subcategory": "plant_graminoid",
+    "subcategory_title": "禾本科草本",
+    "tags": [
+      "芒草",
+      "Miscanthus sinensis",
+      "自然主义",
+      "地上植株",
+      "植物组图"
+    ],
+    "description": "Miscanthus sinensis。开花期株丛。渐尖线形叶具浅色中脉，花序由细长分枝与浅银金色小穗毛组成。 完整地上植株，按器官分组编辑。",
+    "author": "ScanSci",
+    "license": "",
+    "local_original": true,
+    "status": "original",
+    "source_url": "https://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200025714",
+    "created_at": "2026-09-09",
+    "preview_url": "./assets/nature/plant-miscanthus-sinensis.svg",
+    "demo": true,
+    "portrait": true,
+    "visual_revision": "nature-20260909",
+    "file": "plant-miscanthus-sinensis.svg",
+    "components": [
+      {
+        "id": "miscanthus",
+        "label": "芒草",
+        "selector": null,
+        "bounds": [
+          78,
+          38.95000076293945,
+          444,
+          714.47998046875
+        ],
+        "view": "地上株丛，开花期",
+        "style": "自然主义分层色块",
+        "scenes": [
+          "草本层",
+          "河岸生境"
+        ],
+        "anchors": {
+          "ground": [
+            299,
+            751
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "nature-plant-trifolium-repens",
+    "title": "白三叶",
+    "category": "plants",
+    "domain": "植物",
+    "subcategory": "plant_flowering_herb",
+    "subcategory_title": "阔叶草本",
+    "tags": [
+      "白三叶",
+      "Trifolium repens",
+      "自然主义",
+      "地上植株",
+      "植物组图"
+    ],
+    "description": "Trifolium repens。开花期连通株丛。匍匐茎、三出复叶、浅色弯月叶斑和白色花头。 完整地上植株，按器官分组编辑。",
+    "author": "ScanSci",
+    "license": "",
+    "local_original": true,
+    "status": "original",
+    "source_url": "https://plants.ces.ncsu.edu/plants/trifolium-repens/",
+    "created_at": "2026-09-09",
+    "preview_url": "./assets/nature/plant-trifolium-repens.svg",
+    "demo": true,
+    "portrait": true,
+    "visual_revision": "nature-20260909",
+    "file": "plant-trifolium-repens.svg",
+    "components": [
+      {
+        "id": "clover",
+        "label": "白三叶",
+        "selector": null,
+        "bounds": [
+          44.72675704956055,
+          313.2066650390625,
+          496.7542724609375,
+          421.7548828125
+        ],
+        "view": "地上株丛，开花期",
+        "style": "自然主义分层色块",
+        "scenes": [
+          "地被植物",
+          "草地生境"
+        ],
+        "anchors": {
+          "ground": [
+            302,
+            727
+          ]
+        }
+      }
+    ]
+  }
+]

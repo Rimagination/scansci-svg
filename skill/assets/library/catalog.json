@@ -393,7 +393,28 @@
     "preview_url": "./assets/expanded/animal_bony_fish.svg",
     "demo": true,
     "updated_at": "2026-09-08",
-    "visual_revision": "natural-form-20260908"
+    "visual_revision": "natural-form-20260908",
+    "file": "animal_bony_fish.svg",
+    "components": [
+      {
+        "id": "fish",
+        "label": "硬骨鱼示意",
+        "selector": null,
+        "bounds": [
+          45.6862907409668,
+          81,
+          307.313720703125,
+          152
+        ],
+        "view": "侧面，向左",
+        "style": "柔和色块示意",
+        "scenes": [
+          "水生生物",
+          "水下生境"
+        ],
+        "anchors": {}
+      }
+    ]
   },
   {
     "id": "expanded-animal_cartilaginous_fish",
@@ -422,26 +443,28 @@
   },
   {
     "id": "expanded-animal_insect",
-    "title": "展翅蝴蝶",
+    "title": "金凤蝶 · 展翅",
     "category": "other",
     "domain": "动物",
     "subcategory": "animal_insect",
     "subcategory_title": "昆虫",
     "tags": [
       "昆虫",
-      "蝴蝶",
-      "六足",
-      "膜翅"
+      "金凤蝶",
+      "Papilio machaon",
+      "成虫",
+      "可编辑SVG"
     ],
-    "description": "头胸腹、前后翅、六足与触角分组，翅脉属于对应翼组。",
+    "description": "Papilio machaon，成虫背面展示。前后翅、头胸腹、触角与足分别分组；后翅保留尾突、蓝斑和红色眼斑。综合实拍形态参考重新构形，翅脉与表面纹理概括。参考照片：(c) Marsel Mersinaj, some rights reserved (CC BY-NC)，原照片许可 cc-by-nc；照片未嵌入 SVG。",
     "author": "ScanSci",
-    "license": "",
+    "license": "CC-BY-4.0",
     "local_original": true,
     "status": "original",
-    "source_url": "",
+    "source_url": "https://www.inaturalist.org/observations/272046959",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/animal_insect.svg",
-    "demo": true
+    "demo": true,
+    "visual_revision": "20260915-insects"
   },
   {
     "id": "expanded-animal_arachnid",
@@ -1075,7 +1098,37 @@
     "preview_url": "./assets/expanded/env_forest.svg",
     "demo": true,
     "updated_at": "2026-09-08",
-    "visual_revision": "natural-form-20260908"
+    "visual_revision": "natural-form-20260908",
+    "file": "env_forest.svg",
+    "components": [
+      {
+        "id": "tree",
+        "label": "林木",
+        "selector": "tall-left",
+        "bounds": [
+          35.50374984741211,
+          40.984283447265625,
+          219.57557678222656,
+          231.01571655273438
+        ],
+        "view": "侧面，带可见树干与根部",
+        "style": "柔和色块示意",
+        "scenes": [
+          "森林层次",
+          "河岸林木"
+        ],
+        "anchors": {
+          "ground": [
+            175.58,
+            271
+          ],
+          "root-left": [
+            129.02,
+            272
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "expanded-env_grassland",
@@ -1709,7 +1762,56 @@
     "source_url": "",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/env_monitoring.svg",
-    "demo": true
+    "demo": true,
+    "file": "env_monitoring.svg",
+    "components": [
+      {
+        "id": "station",
+        "label": "气象站",
+        "selector": "meteorological-station",
+        "bounds": [
+          71,
+          60,
+          65,
+          177
+        ],
+        "view": "侧面，三脚支撑",
+        "style": "细轮廓色块示意",
+        "scenes": [
+          "生态监测",
+          "气象观测"
+        ],
+        "anchors": {
+          "ground": [
+            93,
+            237
+          ]
+        }
+      },
+      {
+        "id": "buoy",
+        "label": "水质浮标",
+        "selector": "instrumented-buoy",
+        "bounds": [
+          227,
+          147,
+          76,
+          129
+        ],
+        "view": "斜侧面，带水下探头",
+        "style": "细轮廓色块示意",
+        "scenes": [
+          "水质监测",
+          "水面与水下"
+        ],
+        "anchors": {
+          "waterline": [
+            265,
+            233
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "expanded-mat_small_molecules",
@@ -2169,7 +2271,27 @@
     "source_url": "",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/lab_vessels.svg",
-    "demo": true
+    "demo": true,
+    "file": "lab_vessels.svg",
+    "components": [
+      {
+        "id": "lab-vessels",
+        "label": "锥形烧瓶与移液器",
+        "selector": null,
+        "bounds": [
+          78.46875,
+          35.02302551269531,
+          250.55197143554688,
+          237.9769744873047
+        ],
+        "anchors": {},
+        "view": "侧视概括",
+        "style": "flat-scientific",
+        "scenes": [
+          "实验仪器排版"
+        ]
+      }
+    ]
   },
   {
     "id": "expanded-lab_centrifugation",
@@ -2215,7 +2337,28 @@
     "source_url": "",
     "created_at": "2026-09-08",
     "preview_url": "./assets/expanded/lab_light_microscopy.svg",
-    "demo": true
+    "demo": true,
+    "file": "lab_light_microscopy.svg",
+    "components": [
+      {
+        "id": "light-microscope",
+        "label": "正置光学显微镜",
+        "selector": null,
+        "bounds": [
+          82,
+          35,
+          228,
+          242
+        ],
+        "anchors": {},
+        "view": "侧视概括",
+        "style": "flat-scientific",
+        "scenes": [
+          "实验仪器排版",
+          "观察示意"
+        ]
+      }
+    ]
   },
   {
     "id": "expanded-lab_electron_microscopy",

@@ -28,7 +28,7 @@ class ReplayTests(unittest.TestCase):
             self.assertEqual(result.returncode,0,result.stderr)
             self.assertTrue((root/'output'/'replay.html').exists())
             self.assertFalse((root/'output'/'frames').exists())
-            self.assertTrue(json.loads((root/'output'/'replay.json').read_text())['final_frame_matches_reference'])
+            self.assertTrue(json.loads((root/'output'/'replay.json').read_text(encoding='utf-8'))['final_frame_matches_reference'])
 
     def test_process_samples_final_endpoint(self):
         with tempfile.TemporaryDirectory() as tmp:

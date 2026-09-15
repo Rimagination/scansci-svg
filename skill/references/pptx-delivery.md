@@ -26,7 +26,7 @@
 python "<easyslides-root>/scripts/svg_to_pptx.py" "<project>" --only native -o "<project>/figure-editable.pptx" -t none -a none --no-notes
 ```
 
-`native` 为原生 DrawingML 输出；`legacy` 为 SVG 图片模式，交付时区分。无需为这条路线再实现一套通用 PPTX 导出引擎。宿主缺少该工具时检查其他已装原生导出能力；能力不可用时交付已完成的 SVG，并说明缺少的原生导出能力。
+`native` 为原生 DrawingML 输出；`legacy` 为 SVG 图片模式，交付时区分。宿主缺少该工具时检查其他已装原生导出能力；少量图形可用现有 PPTX 库建立原生文本和形状，再按本节验收。按当前图补必要适配即可。目标依然是用户需要的可编辑 PPTX；具体阻塞与替代取舍按 [工具缺失后的处理](svg-handbook.md#recover) 解决，已完成 SVG 可作为中间成果交付。
 
 ## 保真与操作验证
 

@@ -1,4 +1,4 @@
 interface:
   display_name: "scansci-svg"
-  short_description: "科研图重建、精细临摹、部件编辑与组图，推荐 GPT-6 Astra"
-  default_prompt: "使用 $scansci-svg，按我的描述或参考制作可编辑科研图件；根据用途选择重建与精细临摹，保留有意义的细节，核对科学关系和编辑组织，并提供实际预览。"
+  short_description: "科研绘图、部件编辑、素材组图、格式转换与兼容修复，推荐 GPT-6 Astra"
+  default_prompt: "使用 $scansci-svg 处理我的绘图、编辑、转换或兼容问题，保留需要的科学内容与编辑能力，调用合适工具并交付验证后的目标文件；影响结果的缺项先追问。"

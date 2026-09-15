@@ -1,0 +1,266 @@
+{
+  "template": "background.svg",
+  "objects": [
+    {
+      "id": "tree-back",
+      "component": "tree",
+      "label": "后景林木",
+      "width": 175,
+      "anchor": "ground",
+      "at": [
+        453.63966473837405,
+        480.32070891769035
+      ],
+      "opacity": 0.74
+    },
+    {
+      "id": "tree-left",
+      "component": "tree",
+      "label": "林缘乔木",
+      "width": 279,
+      "anchor": "ground",
+      "at": [
+        291.9855226400364,
+        568.2655873602034
+      ]
+    },
+    {
+      "id": "tree-middle",
+      "component": "tree",
+      "label": "岸坡乔木",
+      "width": 178,
+      "anchor": "ground",
+      "at": [
+        504.5534875624605,
+        568.4633496419935
+      ]
+    },
+    {
+      "id": "weather-station",
+      "component": "station",
+      "label": "气象观测站",
+      "width": 60,
+      "anchor": "ground",
+      "at": [
+        592.3076923076923,
+        563.3846153846154
+      ],
+      "labels": [
+        {
+          "text": "气象站",
+          "at": [
+            -13.307692307692264,
+            -184.38461538461536
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clover-back",
+      "component": "clover",
+      "label": "后景白三叶",
+      "width": 65,
+      "anchor": "ground",
+      "at": [
+        592.6640502535256,
+        587.1446108540032
+      ]
+    },
+    {
+      "id": "grass-back",
+      "component": "miscanthus",
+      "label": "岸坡芒草",
+      "width": 92,
+      "anchor": "ground",
+      "at": [
+        753.7927927927927,
+        566.5418917338053
+      ]
+    },
+    {
+      "id": "swallow-near",
+      "component": "swallow",
+      "label": "飞行家燕",
+      "width": 113,
+      "anchor": "top-left",
+      "at": [
+        776.0,
+        253.0
+      ],
+      "labels": [
+        {
+          "text": "家燕",
+          "at": [
+            12.0,
+            -21.0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swallow-far",
+      "component": "swallow",
+      "label": "远景家燕",
+      "width": 73,
+      "anchor": "top-left",
+      "at": [
+        1134.0,
+        297.0
+      ],
+      "opacity": 0.85
+    },
+    {
+      "id": "kingfisher",
+      "component": "kingfisher",
+      "label": "栖枝翠鸟",
+      "width": 140,
+      "anchor": "perch",
+      "at": [
+        968.3636363636364,
+        550.8383838383838
+      ],
+      "labels": [
+        {
+          "text": "翠鸟",
+          "at": [
+            -28.363636363636374,
+            -135.83838383838383
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wagtail",
+      "component": "wagtail",
+      "label": "岸边白鹡鸰",
+      "width": 123,
+      "anchor": "ground",
+      "at": [
+        664.551724137931,
+        662.3950717969873
+      ],
+      "labels": [
+        {
+          "text": "白鹡鸰",
+          "at": [
+            -91.55172413793105,
+            -86.39507179698728
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fish-near",
+      "component": "fish",
+      "label": "水下鱼一",
+      "width": 116,
+      "anchor": "top-left",
+      "at": [
+        1071.0,
+        691.0
+      ],
+      "opacity": 0.55
+    },
+    {
+      "id": "fish-far",
+      "component": "fish",
+      "label": "水下鱼二",
+      "width": 77,
+      "anchor": "top-left",
+      "at": [
+        1295.0,
+        719.0
+      ],
+      "opacity": 0.42
+    },
+    {
+      "id": "water-buoy",
+      "component": "buoy",
+      "label": "水质监测浮标",
+      "width": 80,
+      "anchor": "waterline",
+      "at": [
+        1305.0,
+        596.5263157894736
+      ],
+      "labels": [
+        {
+          "text": "监测浮标",
+          "at": [
+            75.0,
+            -97.52631578947364
+          ],
+          "leader": [
+            [
+              76.0,
+              -89.52631578947364
+            ],
+            [
+              42.0,
+              -75.52631578947364
+            ],
+            [
+              -1.0,
+              -56.52631578947364
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cattail-right",
+      "component": "cattail",
+      "label": "右岸香蒲",
+      "width": 97,
+      "anchor": "ground",
+      "at": [
+        1388.5,
+        702.25
+      ]
+    },
+    {
+      "id": "clover-left",
+      "component": "clover",
+      "label": "前景白三叶",
+      "width": 118,
+      "anchor": "ground",
+      "at": [
+        305.113198921785,
+        732.2932935503443
+      ]
+    },
+    {
+      "id": "clover-middle",
+      "component": "clover",
+      "label": "岸坡白三叶",
+      "width": 91,
+      "anchor": "ground",
+      "at": [
+        550.1296703549359,
+        718.8024551956045
+      ]
+    },
+    {
+      "id": "grass-front",
+      "component": "miscanthus",
+      "label": "前景芒草",
+      "width": 143,
+      "anchor": "ground",
+      "at": [
+        426.17792792792795,
+        745.3314186731974
+      ]
+    },
+    {
+      "id": "cattail-front",
+      "component": "cattail",
+      "label": "浅水香蒲",
+      "width": 150,
+      "anchor": "ground",
+      "at": [
+        836.5463917525773,
+        782.6340206185566
+      ]
+    }
+  ]
+}

@@ -26,6 +26,65 @@
 
 ## 轻量拼版工具
 
+### 用素材库组织场景
+
+先明确整图表达，再检索、查看和选择素材。现有 catalog 的 `components` 记录可提取组、视角、风格、适用场景、构图范围和接触点；源文件与署名来源放在同一条素材记录中。当前 14 个组件支持河岸、仪器排版和植物总览/局部示例。检索未命中时继续查原素材分类，已有素材可按需补充组件记录；确实缺少的对象再画。
+
+```text
+python <skill目录>/scripts/compose_scene.py --find "翠鸟"
+python <skill目录>/scripts/compose_scene.py <skill目录>/assets/scenes/riverbank/scene.json riverbank.svg
+```
+
+场景配方是生成输入。复制示例的 `scene.json` 和 `background.svg` 到工作目录，改配方后生成新版本；随包素材由脚本所在的 skill 目录定位，无需历史输出文件。例：
+
+```json
+{
+  "width": 600, "height": 400,
+  "title": "素材组合示意",
+  "objects": [{
+    "id": "bird", "component": "kingfisher", "width": 180,
+    "anchor": "perch", "at": [300, 260],
+    "labels": [{"text": "翠鸟", "at": [0, -130]}]
+  }]
+}
+```
+
+`width` 按组件已测构图宽度等比例缩放；`anchor` 将源图的具名点放到 `at`，省略时使用构图范围左上角。单点确定落位，承托面的方向、范围和多个趾/根的接触仍需看图核对。植株地上部分、全株与剖面按真实范围选择，场景标签仅用于检索，物种共现与机制关系依任务依据确认。
+
+复杂场景用 `"template": "background.svg"` 代替空白画布尺寸。底图保留新画的环境、关系与前后顺序，用 `<g id="bird"/>` 这样的空组标记插入位置，ID 对应配方对象。把空组放进栖枝组合或水域裁剪组，生成后自然保留这些关系。配方中的 `at` 使用空组父级的坐标系，底图空组仅设置 `id`；对象的 `opacity` 只作用于素材图形。
+
+标签 `at` 是相对对象落点的偏移，字号默认 16，支持 `size` 与 `align`（start/middle/end）；引线 `leader` 为同一坐标系的点列，例如 `[[0,0],[20,-20],[40,-20]]`。文字与引线随对象移动；整套承托关系一起移动时操作父组合。
+
+脚本复用现有 ID 隔离与结构检查，完整保留组件路径、祖先样式和变换、内部部件、定义及出处。组件选择器支持完整 SVG 或一个具名 `<g>`；依赖其他可见兄弟对象的组件，先将引用资源整理进 `<defs>`。含样式表的素材先展开样式，根变换先规范化再测量范围。`bounds` 和 `anchors` 使用源 viewBox 坐标，修改源造型后重新核对这些记录。输出为新文件，原素材继续保留。
+
+### 跨对象连接联动
+
+需要随对象改位或缩放的连线写进配方的 `connections`：
+
+```json
+"connections": [{
+  "id": "detail-link",
+  "from": {"object": "overview", "point": [120, 180]},
+  "to": {"object": "detail", "anchor": "attachment"},
+  "route": "straight", "arrow": "none",
+  "label": {"text": "局部位置", "offset": [0, -14]}
+}]
+```
+
+每个端点填写 `object`，以及 `anchor` 或 `point` 中的一种。`anchor` 来自组件索引；`point` 使用原素材 viewBox 中实际确认的部件坐标。示例坐标需按所选素材确定。全图与局部关联只连接同一来源中确实对应的部位。
+
+模板中为连线放置同名空组，例如 `<g id="detail-link"/>`，用其层次控制前后遮挡。脚本计算对象位置、尺寸与父组变换，把端点映射到连线所在父组；支持 SVG 的 translate、scale、rotate、matrix、skewX/skewY。有 CSS 变换或嵌套模板视口时，先将其规范化为分组变换。
+
+`route` 可选 `straight`、`horizontal`（先水平出线）、`vertical`（先垂直出线），折点随两端重新计算。`arrow` 默认为 `none`，明确方向时选 `end` 或 `both`。可设 `color`（六位十六进制色）与 `stroke_width`。关系标签跟随两端中点，`offset` 控制偏移，`size` 默认为 16。连线与标签保留独立关系组，源、目标及绑定信息随 SVG 保存。
+
+修改配方中的对象 `at` 或 `width` 后生成新文件，复查端点贴合、路径经过的对象、箭头含义和标签可读性。路径规划采用上述几何规则，遮挡由绘制者处理。直接在编辑器里拖动静态 SVG 后，需要更新配方或手动调整连接；需要持续联动的返修优先从配方完成。
+
+以当前成稿为返修基准。成稿已有手工修改时，先将改动回写到对应素材、底图或参数，再重新生成；对照当前成稿检查无关部件与配色保持。
+
+运行 [全株与同源复叶](../assets/scenes/plant-detail/scene.json) 可查看局部引线绑定；[仪器排版](../assets/scenes/instruments/scene.json) 用于查看跨父组的图版关联。用同一生成命令运行配方即可，修改 `at`、`width` 后输出到新文件。
+
+### 多面板拼版
+
 已有自包含 SVG 需要重复拼版时，用 `scripts/compose_svg.py`。脚本接受本地布局 JSON，将各 SVG 等比例放入指定区域，隔离 ID 和本地引用，保留嵌套 SVG 及部件组。源图使用属性或内联样式；含 `<style>` 的文件先解析为元素上的样式，避免选择器跨面板影响。科学关系、样式协调与连接线由绘制者决定。
 
 ```json

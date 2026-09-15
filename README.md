@@ -1,11 +1,11 @@
 <div align="center">
 
 <a href="assets/brand/scansci-svg-banner.svg"><img src="assets/brand/scansci-svg-banner.png" width="100%" alt="ScanSci SVG — 让科学表达生动可见。由鸟类、植物和山水矢量素材组成的可编辑横幅。"></a>
-<p><a href="https://www.scansci.com/symbols/">看素材</a> · <a href="#quick-start">快速开始</a> · <a href="#use-cases">使用场景</a> · <a href="#installation">手动安装</a></p>
+<p><a href="https://www.scansci.com/symbols/">看素材</a> · <a href="#quick-start">快速开始</a> · <a href="#use-cases">使用场景</a> · <a href="skill/references/svg-handbook.md">SVG 百科</a> · <a href="#installation">手动安装</a></p>
 
 </div>
 
-ScanSci SVG 是给 AI Agent 使用的科研绘图 skill。描述你要画什么，或提供一张参考图，就可以创作 SVG，并继续修改其中的文字、颜色和部件。
+ScanSci SVG 帮助 AI Agent 完成科研绘图、部件编辑、素材组图、格式转换与兼容修复。描述需求或提供文件，它会结合输入和用途选择工具，制作结果并检查交付中的实际效果。
 
 > **推荐使用 GPT-6 Astra。** 绘图需要模型能读取参考图、写入文件并查看实际渲染结果。
 
@@ -42,15 +42,33 @@ ScanSci SVG 是给 AI Agent 使用的科研绘图 skill。描述你要画什么�
 | 你想做的事 | 可以直接这样说 |
 | --- | --- |
 | **从描述画图** | “画大肠杆菌示意图，显示细胞及运动相关结构。” |
+| **植物黑白线稿** | “参考实拍和形态描述，画一株植物志风格的黑白线稿，轮廓、叶脉和点描分别可编辑。” |
+| **画库外物种** | “素材库没有戴胜，请查影像数据库，参考实拍画一只，羽冠、翅膀和尾羽分别可编辑。” |
 | **还原参考图片** | “把这张图转成 SVG，保留构图、标签、颜色和对象关系。” |
 | **精细临摹** | “参考这张鸟类插画，保留羽毛斑纹、轮廓和明暗层次。” |
 | **修改一个部件** | “修正青蛙的后肢连接，保留身体、配色和整体姿态。” |
 | **制作成套变体** | “同一株玉米做自然配色、根系强调、果穗强调三版，姿态保持一致。” |
 | **组合论文图** | “把水稻、小麦和玉米排成三面板对比图，统一标签，注明非等比例示意。” |
+| **复用素材组成场景** | “用素材库里的鸟、植物和监测设施组成河岸示意图；对象和对应标签可以一起移动。” |
+| **联动修改局部图** | “把右侧复叶图缩小并向下移动，引线仍指向全株中同一片叶子的叶柄。” |
 | **交付可编辑 PPT** | “把这张图转成 PPTX，文字和主要部件能单独修改。” |
 | **生成绘制回放** | “给这张 SVG 生成从线稿到成稿的离散回放，交一个可播放的离线 HTML。” |
+| **查原理与排错** | “为什么 SVG 在浏览器里正常，导入编辑器后箭头和字体变了？” |
+| **选择转换路线** | “这张 SVG 要用于 PowerPoint 和期刊 PDF，各怎样导出才能保留需要的编辑能力？” |
 
 涉及具体物种、设备型号或科学机制时，会结合已有资料核实影响绘制的特征。需求存在会改变结果的歧义时，先追问关键选择。
+
+植物线稿支持轮廓层级、点描与排线，以及按需组织诊断局部；[查看线稿模式](skill/references/botanical-line-art.md)。
+
+库外物种可连接 **iNaturalist、GBIF** 查带来源的影像参考，核对学名与形态后绘制。当前公开检索无需登录，参考记录可复用；[查看使用方式](skill/references/species-image-reference.md)。
+
+## 有 SVG 相关需求，直接交给它处理
+
+[打开百科总索引](skill/references/svg-handbook.md) · [查看转换速查表](skill/references/svg-handbook.md#conversion-map)
+
+例如：“导出宽 2400 像素的透明 PNG”“把 R 作图脚本导出为文字可编辑的 SVG”“修复转 PDF 后的缺字和箭头错位”。信息充分时直接执行；影响结果的缺项会先追问。首选工具缺失时寻找能保留所需能力的替代，出现明确失真时继续修复。
+
+背后的六个知识专题提供格式选择、工具用法与排错依据，按当前任务读取。已实测的工作流、官方文档路线及需要重建的情况分别标明。只想了解原理时也可以直接问，skill 会按知识问答处理。
 
 ## 一张图，可以接着这样改
 
@@ -95,6 +113,7 @@ ScanSci SVG 是给 AI Agent 使用的科研绘图 skill。描述你要画什么�
 - [在线浏览与下载](https://www.scansci.com/symbols/)
 - [149 类素材索引](skill/references/taxonomy.md) · [仓库素材清单](skill/assets/library/catalog.json)
 - [10 件全株植物](skill/assets/plants/catalog.json) · [植物参考来源](skill/assets/plants/REFERENCES.md)
+- [6 件自然插画](skill/assets/nature/catalog.json) · [河岸场景](skill/assets/scenes/riverbank/scene.json) · [全株与复叶局部](skill/assets/scenes/plant-detail/scene.json)：组合工具可检索 14 个已标注组件，复用原有路径；通过配方修改对象位置与尺寸，重新生成关联的端点和标签，见 [用素材库组织场景](skill/references/figure-composition.md#用素材库组织场景)。
 
 <a id="installation"></a>
 
@@ -139,6 +158,7 @@ cp -R skill/. "${CODEX_HOME:-$HOME/.codex}/skills/scansci-svg/"
 | --- | --- |
 | SVG 绘制与预览 | 宿主的文件工具、浏览器或 SVG 渲染器 |
 | 重复拼版、简单部件修改、结构检查 | 仓库中的 Python 3 脚本，使用标准库 |
+| 参考插画描摹与局部混合 | 可选 `trace_svg.py`，使用 Pillow 与 VTracer；见 [描摹与部件整理](skill/references/editable-workflow.md#描摹与部件整理) |
 | 可编辑 PPTX | 宿主已有的原生形状导出工具，例如 EasySlides；见 [PPTX 交付](skill/references/pptx-delivery.md) |
 | 离线 HTML 绘制回放 | Node.js、Playwright、Chromium；生成后的 HTML 可直接在浏览器打开 |
 | MP4 / GIF 回放与过程动画 | 在浏览器渲染基础上使用 FFmpeg 编码 |

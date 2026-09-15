@@ -166,7 +166,54 @@
     "source_url": "https://plants.ces.ncsu.edu/plants/solanum-lycopersicum/",
     "created_at": "2026-09-08",
     "preview_url": "./assets/plants/whole-tomato.svg",
-    "demo": true
+    "demo": true,
+    "file": "whole-tomato.svg",
+    "components": [
+      {
+        "id": "tomato-whole",
+        "label": "番茄全株",
+        "selector": null,
+        "bounds": [
+          83.19258117675781,
+          42.655277252197266,
+          448.2117919921875,
+          704.4447021484375
+        ],
+        "anchors": {
+          "leaf-one-base": [
+            297.5449387804756,
+            448
+          ]
+        },
+        "view": "全株侧视概括",
+        "style": "flat-scientific",
+        "scenes": [
+          "植物总览与局部"
+        ]
+      },
+      {
+        "id": "tomato-leaf-one",
+        "label": "番茄复叶局部",
+        "selector": "tomato-compound-leaf-1",
+        "bounds": [
+          267.907958984375,
+          294.4407653808594,
+          249.53070068359375,
+          214.32406616210938
+        ],
+        "anchors": {
+          "petiole-base": [
+            297.5449387804756,
+            448
+          ]
+        },
+        "view": "源全株中的同一片复叶",
+        "style": "flat-scientific",
+        "scenes": [
+          "植物总览与局部"
+        ]
+      }
+    ]
   },
   {
     "id": "whole-dandelion",

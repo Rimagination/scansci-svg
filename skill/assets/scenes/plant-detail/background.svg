@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760">
+<title>番茄全株与复叶局部</title>
+<rect width="1200" height="760" fill="#f8faf6"/>
+<g font-family="Arial, Microsoft YaHei, sans-serif">
+ <text x="58" y="60" font-size="30" fill="#294b37" font-weight="700">从全株到复叶</text>
+ <text x="58" y="95" font-size="16" fill="#687f6d">同一源素材的总览与局部 · 示意，非等比例</text>
+ <rect x="52" y="122" width="446" height="577" rx="20" fill="#fff" stroke="#dfe8db"/>
+ <rect x="622" y="174" width="526" height="438" rx="20" fill="#fff" stroke="#dfe8db"/>
+ <text x="76" y="158" font-size="17" fill="#687f6d">A　番茄全株</text>
+ <text x="650" y="213" font-size="17" fill="#687f6d">B　同一片复叶</text>
+</g>
+<g id="overview-region" transform="translate(94 181) scale(.88)"><g id="tomato"/></g>
+<g id="detail-region" transform="translate(744 296) rotate(-4)"><g id="leaf-detail"/></g>
+<g id="relation-layer" transform="translate(0 8)"><g id="leaf-correspondence"/></g>
+<text x="650" y="562" font-size="15" font-family="Arial, Microsoft YaHei, sans-serif" fill="#687f6d">局部从全株具名组提取，路径与内部叶脉分组保留。</text>
+<text x="58" y="737" font-size="15" font-family="Arial, Microsoft YaHei, sans-serif" fill="#687f6d">关系线标示同一片复叶的叶柄基点；调整局部图位置或大小后，端点仍对应原部位。</text>
+</svg>

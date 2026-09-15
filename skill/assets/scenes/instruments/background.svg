@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+<title>仪器组合排版：跨分区连接</title>
+<rect width="1200" height="700" fill="#f7fafc"/>
+<g font-family="Arial, Microsoft YaHei, sans-serif">
+ <text x="62" y="62" font-size="30" fill="#173b4a" font-weight="700">仪器组合排版</text>
+ <text x="62" y="97" font-size="16" fill="#607987">示意，非等比例 · 连线仅演示图版关联，不表示实验顺序</text>
+ <rect x="56" y="130" width="490" height="468" rx="20" fill="#fff" stroke="#dce7eb"/>
+ <rect x="648" y="130" width="496" height="468" rx="20" fill="#fff" stroke="#dce7eb"/>
+ <text x="87" y="171" font-size="17" fill="#65818e">A　液体操作器具</text>
+ <text x="678" y="171" font-size="17" fill="#65818e">B　光学观察仪器</text>
+</g>
+<g id="left-region"><g id="vessels"/></g>
+<g id="right-region" transform="translate(80 20) scale(.9)"><g id="microscope"/></g>
+<g id="relation-layer" transform="translate(0 12)"><g id="equipment-pair"/></g>
+<text x="62" y="655" font-size="16" font-family="Arial, Microsoft YaHei, sans-serif" fill="#607987">素材保留原有部件结构；移动右侧仪器后，连线端点与关系标签随布局重新计算。</text>
+</svg>

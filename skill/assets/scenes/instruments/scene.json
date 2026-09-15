@@ -1,0 +1,52 @@
+{
+  "template": "background.svg",
+  "objects": [
+    {
+      "id": "vessels",
+      "component": "lab-vessels",
+      "width": 320,
+      "at": [
+        126,
+        214
+      ]
+    },
+    {
+      "id": "microscope",
+      "component": "light-microscope",
+      "width": 332,
+      "at": [
+        734,
+        216
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "equipment-pair",
+      "from": {
+        "object": "vessels",
+        "point": [
+          151,
+          273
+        ]
+      },
+      "to": {
+        "object": "microscope",
+        "point": [
+          195,
+          277
+        ]
+      },
+      "route": "vertical",
+      "arrow": "none",
+      "color": "#537b8e",
+      "label": {
+        "text": "图版关联",
+        "offset": [
+          0,
+          22
+        ]
+      }
+    }
+  ]
+}

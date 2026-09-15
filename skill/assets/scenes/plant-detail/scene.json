@@ -1,0 +1,46 @@
+{
+  "template": "background.svg",
+  "objects": [
+    {
+      "id": "tomato",
+      "component": "tomato-whole",
+      "width": 324,
+      "at": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "leaf-detail",
+      "component": "tomato-leaf-one",
+      "width": 320,
+      "at": [
+        0,
+        0
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "leaf-correspondence",
+      "from": {
+        "object": "tomato",
+        "anchor": "leaf-one-base"
+      },
+      "to": {
+        "object": "leaf-detail",
+        "anchor": "petiole-base"
+      },
+      "route": "horizontal",
+      "arrow": "none",
+      "color": "#ba9557",
+      "label": {
+        "text": "对应叶柄基点",
+        "offset": [
+          0,
+          -40
+        ]
+      }
+    }
+  ]
+}
