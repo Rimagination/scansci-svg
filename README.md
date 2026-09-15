@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="assets/brand/scansci-svg-banner.svg"><img src="assets/brand/scansci-svg-banner.png" width="100%" alt="ScanSci SVG — 让科学表达生动可见"></a>
+<a href="https://github.com/Rimagination/scansci-svg/blob/main/assets/brand/scansci-svg-banner.svg"><img src="https://raw.githubusercontent.com/Rimagination/scansci-svg/main/assets/brand/scansci-svg-banner.png" width="100%" alt="ScanSci SVG — 让科学表达生动可见"></a>
 
 <p><a href="#quick-start">开始使用</a> · <a href="#use-cases">能做什么</a> · <a href="#botanical-ink">植物墨线图</a> · <a href="https://www.scansci.com/symbols/">浏览素材库</a> · <a href="#installation">安装</a></p>
 
@@ -89,7 +89,7 @@ ScanSci SVG 支持**先生成墨线参考，再重建可编辑 SVG**。从物种
 
 | 生成的墨线参考 | SVG 重建结果 |
 | --- | --- |
-| ![狗尾草生成墨线参考](assets/examples/setaria-ink/generated-reference.png) | ![狗尾草 SVG 重建预览](assets/examples/setaria-ink/rebuilt-preview.png) |
+| ![狗尾草生成墨线参考](https://raw.githubusercontent.com/Rimagination/scansci-svg/main/assets/examples/setaria-ink/generated-reference.png) | ![狗尾草 SVG 重建预览](https://raw.githubusercontent.com/Rimagination/scansci-svg/main/assets/examples/setaria-ink/rebuilt-preview.png) |
 
 [下载重建 SVG](assets/examples/setaria-ink/setaria-viridis-rebuilt.svg) · [查看已发布素材 SVG](https://www.scansci.com/api/symbols/5651aa85-74a0-48a3-a1ca-0d9bef28f711/file?download=1) · [了解墨线图制作流程](skill/references/botanical-ink-reconstruction.md)
 
@@ -117,9 +117,9 @@ ScanSci SVG 支持**先生成墨线参考，再重建可编辑 SVG**。从物种
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="skill/assets/library/animal_bird.svg"><img src="skill/assets/library/animal_bird.svg" height="230" alt="枝上鸣禽 SVG"></a><br>枝上鸣禽</td>
-    <td align="center" width="33%"><a href="skill/assets/plants/whole-maize.svg"><img src="skill/assets/plants/whole-maize.svg" height="230" alt="玉米全株 SVG"></a><br>玉米全株</td>
-    <td align="center" width="33%"><a href="skill/assets/library/animal_bony_fish.svg"><img src="skill/assets/library/animal_bony_fish.svg" height="230" alt="硬骨鱼 SVG"></a><br>硬骨鱼</td>
+    <td align="center" width="33%"><a href="https://github.com/Rimagination/scansci-svg/blob/main/skill/assets/library/animal_bird.svg"><img src="https://raw.githubusercontent.com/Rimagination/scansci-svg/main/assets/examples/gallery/animal-bird.png" height="230" alt="枝上鸣禽 SVG"></a><br>枝上鸣禽</td>
+    <td align="center" width="33%"><a href="https://github.com/Rimagination/scansci-svg/blob/main/skill/assets/plants/whole-maize.svg"><img src="https://raw.githubusercontent.com/Rimagination/scansci-svg/main/assets/examples/gallery/whole-maize.png" height="230" alt="玉米全株 SVG"></a><br>玉米全株</td>
+    <td align="center" width="33%"><a href="https://github.com/Rimagination/scansci-svg/blob/main/skill/assets/library/animal_bony_fish.svg"><img src="https://raw.githubusercontent.com/Rimagination/scansci-svg/main/assets/examples/gallery/animal-bony-fish.png" height="230" alt="硬骨鱼 SVG"></a><br>硬骨鱼</td>
   </tr>
 </table>
 
