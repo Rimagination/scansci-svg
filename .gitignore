@@ -8,3 +8,5 @@ node_modules/
 !.env.example
 Thumbs.db
 .DS_Store
+# User-supplied style plates: local reference use; redistribution rights unrecorded.
+skill/references/botanical-ink/

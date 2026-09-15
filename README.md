@@ -1,128 +1,152 @@
 <div align="center">
 
-<a href="assets/brand/scansci-svg-banner.svg"><img src="assets/brand/scansci-svg-banner.png" width="100%" alt="ScanSci SVG — 让科学表达生动可见。由鸟类、植物和山水矢量素材组成的可编辑横幅。"></a>
-<p><a href="https://www.scansci.com/symbols/">看素材</a> · <a href="#quick-start">快速开始</a> · <a href="#use-cases">使用场景</a> · <a href="skill/references/svg-handbook.md">SVG 百科</a> · <a href="#installation">手动安装</a></p>
+<a href="assets/brand/scansci-svg-banner.svg"><img src="assets/brand/scansci-svg-banner.png" width="100%" alt="ScanSci SVG — 让科学表达生动可见"></a>
+
+<p><a href="#quick-start">开始使用</a> · <a href="#use-cases">能做什么</a> · <a href="#botanical-ink">植物墨线图</a> · <a href="https://www.scansci.com/symbols/">浏览素材库</a> · <a href="#installation">安装</a></p>
 
 </div>
 
-ScanSci SVG 帮助 AI Agent 完成科研绘图、部件编辑、素材组图、格式转换与兼容修复。描述需求或提供文件，它会结合输入和用途选择工具，制作结果并检查交付中的实际效果。
+# ScanSci SVG
 
-> **推荐使用 GPT-6 Astra。** 绘图需要模型能读取参考图、写入文件并查看实际渲染结果。
+让一张科研图，从想法走到可以使用、可以继续修改的作品。
+
+ScanSci SVG 是供 Codex 等 AI Agent 使用的科研绘图 skill。你可以描述一个对象、附上一张参考图片，或拿出已有的图件，让它协助绘制、还原、修改和排版，最后交付用于论文、教学或演示的文件。
+
+默认交付 **SVG 源文件和预览图**。SVG 可以放大，也便于继续调整图中的文字、颜色和部件。开始时说明“哪些部分以后还要改”，能让结果更贴合你的工作。
 
 <a id="quick-start"></a>
 
-## 快速开始
+## 从一句话开始
 
-把这句话发给支持安装 skill 的 Agent，例如 Codex：
+安装后，把需求直接交给 Agent：
+
+> 使用 $scansci-svg，画一株开花期水稻，根、茎、叶和穗分别可编辑，用于课堂展示。
+
+也可以附上参考图：
+
+> 使用 $scansci-svg，把这张科研示意图重建成 SVG。保留构图、标签和箭头方向，让主要对象能单独修改。
+
+通常说明**画什么、用在哪里、希望保留什么、以后要改什么**就足够。物种、发育阶段、参考图片或目标期刊等已有信息，也可以一起提供。影响结果的关键条件不清楚时，Agent 会进一步确认。
+
+还没有安装？把下面这句话发给支持安装 skill 的 Agent：
 
 ```text
-帮我安装这个 skill：https://github.com/Rimagination/scansci-svg
+帮我安装 https://github.com/Rimagination/scansci-svg，
 使用仓库中的 skill/ 目录作为安装内容。
 ```
 
-安装后，直接描述任务：
-
-```text
-使用 $scansci-svg，画一株开花期水稻，根、茎、叶、穗分别可编辑。
-```
-
-有参考图时，把图片一起附上：
-
-```text
-使用 $scansci-svg，把这张科研示意图转成可编辑 SVG。
-保持原图构图、比例、文字和箭头方向，主要对象能单独修改。
-```
-
-默认得到 **SVG 源文件 + 实际渲染预览**。需要 PPT、动画或更多版本时，在同一段对话里继续提出要求。
-
 <a id="use-cases"></a>
 
-## 你可以用它做什么
+## 从画出对象，到讲清一件事
 
-| 你想做的事 | 可以直接这样说 |
+### 画你研究的对象
+
+植物、鸟类、昆虫、鱼类、微生物、人体器官，以及环境、仪器和工程设施，都可以作为绘图起点。你可以选择简洁的科研示意、自然插画、植物黑白线稿或精细墨线图，并说明需要展示的结构。
+
+涉及具体物种时，绘制会结合可追溯的影像与形态描述，核对外形、器官和着生关系。素材库里没有的物种，也可以借助 iNaturalist、GBIF 等影像来源寻找参考。
+
+> 画一只戴胜，参考实拍和形态描述，保留羽冠、喙和翅膀的识别特征。
+
+### 把参考图变成可继续编辑的图
+
+照片、已有插画、截图和生成图片都可以作为输入。根据用途，可以提取对象、忠实还原画面，也可以重建其中的文字、箭头和主要部件。
+
+需要精细临摹时，重点保留轮廓、斑纹、线条和明暗；需要后续修改时，重点组织好要一起移动或调整的部件。参考图中看不清的部分和重建后的可见差异，会在交付时说明。
+
+> 把这张鸟类插画重建成 SVG，保留羽毛斑纹，翅膀与尾羽分别可编辑。
+
+### 让多个对象组成一张完整的图
+
+单件素材可以继续组成论文多面板图、生态场景或过程示意。已有图件也能制作不同配色、强调区域和展示版本，保持整套图的风格一致。
+
+> 用植物、鸟类和监测设备组成河岸生态示意图，再把采样位置标出来。
+
+> 把这三种植物排成一张论文图，统一标签和留白，注明各图非等比例。
+
+### 把图带到你真正使用的地方
+
+成稿后，可以继续要求导出透明 PNG、PDF 或可编辑 PPTX，也可以处理导入后的缺字、箭头错位、透明背景和显示差异。可编辑 PPTX 的交付会结合当前环境可用的导出工具，核对需要编辑的文字和图形。
+
+需要动态展示时，可以制作科学过程动画，或把成稿编排为逐步出现的绘制回放，用于课程和汇报。绘制回放根据成稿重建步骤，不代表原始创作过程的录屏。
+
+> 把这张图放进一页可编辑 PPT，文字和箭头需要在 PowerPoint 里继续调整。
+
+> 让图中的颗粒沿已标出的运输路线移动，导出 GIF。
+
+<a id="botanical-ink"></a>
+
+## 植物墨线图：先看画面，再重建 SVG
+
+墨线图用细致的轮廓、排线和点描表现植物。叶片的翻折、花序的疏密、刚毛的方向，以及器官之间的连接，共同决定图件是否清楚、自然。
+
+ScanSci SVG 支持**先生成墨线参考，再重建可编辑 SVG**。从物种影像与形态资料出发，先确定画面的笔法和构图，再重建茎、叶、花果和细节，最后对照参考检查形态、连接和还原效果。已有满意的参考图时，可以直接进入重建。
+
+> 画一幅狗尾草墨线图。参考实拍与形态描述，先生成精细参考，再重建 SVG；叶片、叶鞘、花序和刚毛分别可编辑，不加字母标注。
+
+### 狗尾草案例
+
+下面展示同一案例的生成参考与原生 SVG 重建结果。重建稿保留了三枝茎秆的构图，并将叶片、叶鞘和花序组织成可以继续修改的部件。
+
+| 生成的墨线参考 | SVG 重建结果 |
 | --- | --- |
-| **从描述画图** | “画大肠杆菌示意图，显示细胞及运动相关结构。” |
-| **植物黑白线稿** | “参考实拍和形态描述，画一株植物志风格的黑白线稿，轮廓、叶脉和点描分别可编辑。” |
-| **画库外物种** | “素材库没有戴胜，请查影像数据库，参考实拍画一只，羽冠、翅膀和尾羽分别可编辑。” |
-| **还原参考图片** | “把这张图转成 SVG，保留构图、标签、颜色和对象关系。” |
-| **精细临摹** | “参考这张鸟类插画，保留羽毛斑纹、轮廓和明暗层次。” |
-| **修改一个部件** | “修正青蛙的后肢连接，保留身体、配色和整体姿态。” |
-| **制作成套变体** | “同一株玉米做自然配色、根系强调、果穗强调三版，姿态保持一致。” |
-| **组合论文图** | “把水稻、小麦和玉米排成三面板对比图，统一标签，注明非等比例示意。” |
-| **复用素材组成场景** | “用素材库里的鸟、植物和监测设施组成河岸示意图；对象和对应标签可以一起移动。” |
-| **联动修改局部图** | “把右侧复叶图缩小并向下移动，引线仍指向全株中同一片叶子的叶柄。” |
-| **交付可编辑 PPT** | “把这张图转成 PPTX，文字和主要部件能单独修改。” |
-| **生成绘制回放** | “给这张 SVG 生成从线稿到成稿的离散回放，交一个可播放的离线 HTML。” |
-| **查原理与排错** | “为什么 SVG 在浏览器里正常，导入编辑器后箭头和字体变了？” |
-| **选择转换路线** | “这张 SVG 要用于 PowerPoint 和期刊 PDF，各怎样导出才能保留需要的编辑能力？” |
+| ![狗尾草生成墨线参考](assets/examples/setaria-ink/generated-reference.png) | ![狗尾草 SVG 重建预览](assets/examples/setaria-ink/rebuilt-preview.png) |
 
-涉及具体物种、设备型号或科学机制时，会结合已有资料核实影响绘制的特征。需求存在会改变结果的歧义时，先追问关键选择。
+[下载重建 SVG](assets/examples/setaria-ink/setaria-viridis-rebuilt.svg) · [查看已发布素材 SVG](https://www.scansci.com/api/symbols/5651aa85-74a0-48a3-a1ca-0d9bef28f711/file?download=1) · [了解墨线图制作流程](skill/references/botanical-ink-reconstruction.md)
 
-植物线稿支持轮廓层级、点描与排线，以及按需组织诊断局部；[查看线稿模式](skill/references/botanical-line-art.md)。
+这也是一个仍可继续打磨的案例：重建后的叶片曲线和花序排列偏规整，与参考图存在可见差异；网站发布版经过精简，局部曲线也有变化。两图均为 AI 辅助插画，尚未经过分类学专家审定。形态参考包括 [Flora of New Zealand](https://www.nzflora.info/factsheet/taxon/Setaria-viridis.html)。
 
-库外物种可连接 **iNaturalist、GBIF** 查带来源的影像参考，核对学名与形态后绘制。当前公开检索无需登录，参考记录可复用；[查看使用方式](skill/references/species-image-reference.md)。
+普通植物黑白线稿也有独立的[使用说明](skill/references/botanical-line-art.md)。提出“墨线图”时，作品名称和投稿标签会保留这一风格名称。
 
-## 有 SVG 相关需求，直接交给它处理
+## 第一版之后，继续把它改到合用
 
-[打开百科总索引](skill/references/svg-handbook.md) · [查看转换速查表](skill/references/svg-handbook.md#conversion-map)
+一次对话可以持续围绕同一张图推进。你可以指出具体部位，也可以逐步把用途说得更清楚：
 
-例如：“导出宽 2400 像素的透明 PNG”“把 R 作图脚本导出为文字可编辑的 SVG”“修复转 PDF 后的缺字和箭头错位”。信息充分时直接执行；影响结果的缺项会先追问。首选工具缺失时寻找能保留所需能力的替代，出现明确失真时继续修复。
+> 把根系标注改成中英双语。
 
-背后的六个知识专题提供格式选择、工具用法与排错依据，按当前任务读取。已实测的工作流、官方文档路线及需要重建的情况分别标明。只想了解原理时也可以直接问，skill 会按知识问答处理。
+> 再做一版突出根系的配色，保持原来的姿态。
 
-## 一张图，可以接着这样改
+> 把两版并排，统一标题和间距，导出论文用 PDF。
 
-以玉米全株图为例，成稿后可以继续说：
+修改会沿用已有源稿和部件组织。涉及标签、引线或相接的器官时，一起核对它们的位置与连接。你也可以指定 Illustrator、Inkscape 或 PowerPoint 等后续使用环境，让检查围绕实际用途展开。
 
-```text
-把根系标注改成中英双语，并调整引线。
-```
+## 从现成素材开始，也把作品分享出去
 
-```text
-再做根系强调和果穗强调两版，沿用这株玉米的形态。
-```
+[ScanSci 科研素材库](https://www.scansci.com/symbols/)提供按对象浏览、搜索和下载的入口。你可以先找接近需求的素材，再让 Agent 修改或组合。
 
-```text
-把三版排成一张论文图，统一标题和间距，再给我可编辑 PPT。
-```
-
-同一个对象沿用原有部件与源稿。共用标签可以同步修改，各版的强调样式继续保留；需要改变生长阶段或形态时，按对应结构重新绘制。
-
-## 按用途还原细节
-
-**科研示意图重建**侧重对象、文字、连接和可编辑部件，保留参考的构图与科学含义。**精细临摹**进一步还原复杂轮廓、线宽、斑纹、纹理和明暗，同一张图可以分区域采用两种画法。
-
-叶脉、羽毛、刻度和数据点等有意义的细节会保留；压缩色斑、描摹残边和重复碎片按来源清理。细节取舍结合参考图和最终展示尺寸，路径数量随内容需要确定。
-
-绘制回放可以按线稿、固有色、阴影和细节编排，步骤直接切换，保留成稿本身的渐变与透明效果。回放根据成稿重建绘制顺序；已有真实编辑记录时可沿用记录。
-
-## 素材与参考
-
-绘图参考覆盖 **16 个主题领域、149 个 SVG 子类**，包含植物、动物、微生物、人体器官、环境、仪器与工程设施等。在线素材库按对象分类，方便查找。
+仓库也附有植物、动物、环境和仪器等 SVG 素材，以及可复用的自然插画与场景。点击下图可以打开源文件。
 
 <table>
   <tr>
-    <td align="center" width="33%"><a href="skill/assets/library/animal_bird.svg"><img src="skill/assets/library/animal_bird.svg" height="230" alt="枝上鸣禽 SVG，点击查看源文件"></a><br><strong>枝上鸣禽</strong></td>
-    <td align="center" width="33%"><a href="skill/assets/plants/whole-maize.svg"><img src="skill/assets/plants/whole-maize.svg" height="230" alt="玉米全株 SVG，点击查看源文件"></a><br><strong>玉米全株</strong></td>
-    <td align="center" width="33%"><a href="skill/assets/library/animal_bony_fish.svg"><img src="skill/assets/library/animal_bony_fish.svg" height="230" alt="硬骨鱼 SVG，点击查看源文件"></a><br><strong>硬骨鱼</strong></td>
+    <td align="center" width="33%"><a href="skill/assets/library/animal_bird.svg"><img src="skill/assets/library/animal_bird.svg" height="230" alt="枝上鸣禽 SVG"></a><br>枝上鸣禽</td>
+    <td align="center" width="33%"><a href="skill/assets/plants/whole-maize.svg"><img src="skill/assets/plants/whole-maize.svg" height="230" alt="玉米全株 SVG"></a><br>玉米全株</td>
+    <td align="center" width="33%"><a href="skill/assets/library/animal_bony_fish.svg"><img src="skill/assets/library/animal_bony_fish.svg" height="230" alt="硬骨鱼 SVG"></a><br>硬骨鱼</td>
   </tr>
 </table>
 
-上面展示的是仓库中的 SVG 素材，点击可查看源文件。顶部宣传横幅也附有[可编辑 SVG](assets/brand/scansci-svg-banner.svg)。
+[按类别找素材](skill/references/taxonomy.md) · [全株植物](skill/assets/plants/catalog.json) · [自然插画](skill/assets/nature/catalog.json)
 
-- [在线浏览与下载](https://www.scansci.com/symbols/)
-- [149 类素材索引](skill/references/taxonomy.md) · [仓库素材清单](skill/assets/library/catalog.json)
-- [10 件全株植物](skill/assets/plants/catalog.json) · [植物参考来源](skill/assets/plants/REFERENCES.md)
-- [6 件自然插画](skill/assets/nature/catalog.json) · [河岸场景](skill/assets/scenes/riverbank/scene.json) · [全株与复叶局部](skill/assets/scenes/plant-detail/scene.json)：组合工具可检索 14 个已标注组件，复用原有路径；通过配方修改对象位置与尺寸，重新生成关联的端点和标签，见 [用素材库组织场景](skill/references/figure-composition.md#用素材库组织场景)。
+作品完成后，可以继续说：
+
+> 把这幅墨线图上传到 ScanSci，署名和许可沿用我已确认的设置。
+
+Agent 会根据你的明确指令准备投稿，并返回网站实际给出的发布或审核状态。素材网站由独立项目维护，账号、许可选择和投稿规则以网站当前服务为准。
+
+## 使用前，了解这几点
+
+绘图效果取决于模型的观察与构形能力、参考资料，以及后续核对。**推荐使用 GPT-6 Astra**；宿主需要支持看图、读写文件和预览，先生图后重建还需要图像生成能力。
+
+用于物种鉴别、分类学发表或其他正式科研表达时，请结合原始材料审定关键特征。可编辑性、视觉还原和科学准确性都需要各自核对；提供更清晰的参考与具体反馈，有助于持续改进结果。
+
+默认交付 SVG 和预览图。PPTX、动画及其他格式按任务调用当前环境的工具；目标软件中的字体和显示效果，需要在相应软件中确认。
 
 <a id="installation"></a>
 
-## 安装与运行
+## 安装
 
-使用上面的对话安装方式即可开始。需要手动安装时，展开对应系统的步骤。
+优先使用上面的对话安装方式。手动安装时，将本仓库的 `skill/` 目录安装为宿主可识别的 `scansci-svg` skill，再重新加载技能列表。
 
 <details>
-<summary><strong>Windows · PowerShell 7</strong></summary>
+<summary>Windows · PowerShell 7</summary>
 
 ```powershell
 git clone https://github.com/Rimagination/scansci-svg.git
@@ -131,12 +155,12 @@ $skillRoot = if ($env:CODEX_HOME) { Join-Path $env:CODEX_HOME 'skills' } else { 
 ./sync.ps1 -Destination (Join-Path $skillRoot 'scansci-svg')
 ```
 
-脚本先备份已有安装，再复制更新；添加 `-WhatIf` 可预览操作。安装后重新加载宿主的 skill 列表。
+同步脚本会先备份已有安装，再复制更新。
 
 </details>
 
 <details>
-<summary><strong>macOS / Linux · Codex</strong></summary>
+<summary>macOS / Linux · Codex</summary>
 
 ```bash
 git clone https://github.com/Rimagination/scansci-svg.git
@@ -145,53 +169,20 @@ mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills/scansci-svg"
 cp -R skill/. "${CODEX_HOME:-$HOME/.codex}/skills/scansci-svg/"
 ```
 
-安装后重新加载宿主的 skill 列表。更新已有安装前，可先备份其中的个人修改。
+更新已有安装前，可先备份其中的个人修改。
 
 </details>
 
-<details>
-<summary><strong>其他 Agent 与按需工具</strong></summary>
+## 需要进一步了解时
 
-将 `skill/` 的内容放入宿主的 `skills/scansci-svg/`，最终入口为 `skills/scansci-svg/SKILL.md`。模型需要能看图、写文件并检查渲染结果。
-
-| 任务 | 使用的工具 |
-| --- | --- |
-| SVG 绘制与预览 | 宿主的文件工具、浏览器或 SVG 渲染器 |
-| 重复拼版、简单部件修改、结构检查 | 仓库中的 Python 3 脚本，使用标准库 |
-| 参考插画描摹与局部混合 | 可选 `trace_svg.py`，使用 Pillow 与 VTracer；见 [描摹与部件整理](skill/references/editable-workflow.md#描摹与部件整理) |
-| 可编辑 PPTX | 宿主已有的原生形状导出工具，例如 EasySlides；见 [PPTX 交付](skill/references/pptx-delivery.md) |
-| 离线 HTML 绘制回放 | Node.js、Playwright、Chromium；生成后的 HTML 可直接在浏览器打开 |
-| MP4 / GIF 回放与过程动画 | 在浏览器渲染基础上使用 FFmpeg 编码 |
-
-按任务准备对应工具。PPTX 中的字体、渐变和复杂分组需要检查实际导出效果；指定 Illustrator、Inkscape 等编辑器时，也按目标应用核对。
-
-</details>
-
-## 进一步使用
-
-- **组图与变体**：[科研组图](skill/references/figure-composition.md) · [成套变体](skill/references/variation-and-learning.md)
-- **编辑与导出**：[文字和部件修改](skill/references/editable-workflow.md) · [可编辑 PPTX](skill/references/pptx-delivery.md)
-- **动态展示**：[绘制回放](skill/references/drawing-replay.md) · [科学过程动画](skill/references/scientific-animation.md)
-- **分享作品**：生成满意的 SVG 后，可以说“帮我上传 ScanSci”。按 [投稿流程](skill/references/scansci-upload.md) 准备成稿与信息，登录和提交依据站点当时可用的服务完成。
-
-<details>
-<summary><strong>维护、检查与效果评测</strong></summary>
-
-维护源码位于 `skill/`，入口为 [SKILL.md](skill/SKILL.md)。`references/` 存放方法与交付参考，`assets/` 存放素材，`scripts/` 提供编辑、拼版、回放和检查工具，`evals/` 存放评测题。
-
-结构与编辑范围检查示例：
-
-```bash
-python skill/scripts/check_svg.py skill/assets/library/animal_bird.svg
-python skill/scripts/test_edit_scope.py
-```
-
-效果按同条件任务对照记录，包含还原质量、实际返修、编辑结果和完整耗时。[首批工作流试点](skill/references/evaluation.md#2026-09-09-工作流试点) 中，两组均通过三道基础任务检查，完整规范文本未显示额外质量优势；后续用真实任务继续验证工具复用与编辑流程的作用。
-
-个人照片、实验输出和安装备份保存在 Git 忽略的 `.local/`。素材网站由独立的 [scansci-portal](https://github.com/Rimagination/scansci-portal) 项目维护。
-
-</details>
+- [SVG 与格式转换](skill/references/svg-handbook.md)：查导出、兼容和显示问题。
+- [文字与部件编辑](skill/references/editable-workflow.md)：了解还原图片和继续修改的方式。
+- [组图与场景](skill/references/figure-composition.md) · [成套变体](skill/references/variation-and-learning.md)：把单图发展成一套图。
+- [可编辑 PPTX](skill/references/pptx-delivery.md) · [绘制回放](skill/references/drawing-replay.md) · [科学过程动画](skill/references/scientific-animation.md)：用于演示和教学。
+- [Skill 入口](skill/SKILL.md) · [效果评测记录](skill/references/evaluation.md)：供希望了解或参与维护的人阅读。
 
 ## 来源与许可
 
-来源与授权信息随素材和参考记录保留，鸟类生成范例附独立提示词及生成记录。标明 **CC BY 4.0** 的基础素材沿用该许可并署名 ScanSci；其余文件按各自声明使用。本仓库尚未指定覆盖全部文件的统一许可。
+请按每件素材的声明使用和署名。标明 CC BY 4.0 的 ScanSci 素材须保留署名；本页狗尾草案例采用 CC-BY-4.0，署名 ScanSci。参考文献、照片和风格参考的权利独立保留。
+
+本仓库尚未指定覆盖全部文件的统一许可，具体来源与授权见对应素材记录。
